@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Ticket Booking System</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --text-color: #f8fafc;
+            --card-bg: rgba(30, 41, 59, 0.7);
+            --available: #10b981;
+            --available-hover: #059669;
+            --held: #f59e0b;
+            --booked: #64748b;
+            --accent: #3b82f6;
+            --accent-hover: #2563eb;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+            color: var(--text-color);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            text-align: center;
+            padding: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            background: -webkit-linear-gradient(45deg, #60a5fa, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p.subtitle {
+            color: #94a3b8;
+            font-size: 1.1rem;
+        }
+
+        .container {
+            background: var(--card-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
+            max-width: 800px;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .controls {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        input[type="text"] {
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: rgba(15, 23, 42, 0.6);
+            color: white;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:focus {
+            border-color: var(--accent);
+        }
+
+        .legend {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.9rem;
+            color: #cbd5e1;
+        }
+
+        .legend-color {
+            width: 16px;
+            height: 16px;
+            border-radius: 4px;
+        }
+
+        .seats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .seat {
+            aspect-ratio: 1;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+        }
+
+        .seat::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 100%);
+            border-radius: 12px;
+        }
+
+        .seat.AVAILABLE {
+            background-color: var(--available);
+            border: 2px solid var(--available);
+        }
+
+        .seat.AVAILABLE:hover {
+            transform: translateY(-4px) scale(1.05);
+            background-color: var(--available-hover);
+            box-shadow: 0 10px 15px -3px rgba(16, 185, 129, 0.4);
+        }
+
+        .seat.HELD {
+            background-color: var(--held);
+            border: 2px solid var(--held);
+            cursor: not-allowed;
+            animation: pulse 2s infinite;
+        }
+
+        .seat.BOOKED {
+            background-color: var(--booked);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            cursor: not-allowed;
+            color: #94a3b8;
+            opacity: 0.8;
+        }
+
+        .seat-number {
+            z-index: 1;
+        }
+
+        .seat-holder {
+            font-size: 0.65rem;
+            font-weight: normal;
+            margin-top: 4px;
+            z-index: 1;
+            text-align: center;
+            max-width: 90%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.4); }
+            70% { box-shadow: 0 0 0 10px rgba(245, 158, 11, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0); }
+        }
+
+        .toast {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            background: rgba(30, 41, 59, 0.9);
+            border-left: 4px solid var(--accent);
+            color: white;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+            transform: translateX(150%);
+            transition: transform 0.3s ease-out;
+            z-index: 1000;
+        }
+
+        .toast.show {
+            transform: translateX(0);
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Live Ticket Booking System</h1>
+        <p class="subtitle">Experience concurrent seat booking in real-time</p>
+    </header>
+
+    <div class="container">
+        <div class="controls">
+            <input type="text" id="username" placeholder="Enter your name" value="WebUser">
+        </div>
+
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color" style="background: var(--available);"></div> Available
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: var(--held);"></div> Held (Processing)
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: var(--booked);"></div> Booked
+            </div>
+        </div>
+
+        <div class="seats-grid" id="seats-grid">
+            <!-- Seats will be rendered here dynamically -->
+        </div>
+    </div>
+
+    <div id="toast" class="toast">Booking request sent!</div>
+
+    <script>
+        const API_SEATS = '/api/seats';
+        const API_BOOK = '/api/book';
+        const grid = document.getElementById('seats-grid');
+        const usernameInput = document.getElementById('username');
+        const toast = document.getElementById('toast');
+
+        // Fetch and render seats
+        async function fetchSeats() {
+            try {
+                const response = await fetch(API_SEATS);
+                const seats = await response.json();
+                renderSeats(seats);
+            } catch (error) {
+                console.error('Error fetching seats:', error);
+            }
+        }
+
+        function renderSeats(seats) {
+            grid.innerHTML = '';
+            seats.forEach(seat => {
+                const div = document.createElement('div');
+                div.className = `seat ${seat.status}`;
+                div.innerHTML = `
+                    <div class="seat-number">${seat.seatNumber}</div>
+                    <div class="seat-holder">${seat.holderName || ''}</div>
+                `;
+                
+                if (seat.status === 'AVAILABLE') {
+                    div.onclick = () => bookSeat(seat.seatNumber);
+                }
+                
+                grid.appendChild(div);
+            });
+        }
+
+        async function bookSeat(seatNumber) {
+            const username = usernameInput.value.trim() || 'Anonymous';
+            showToast(`Requesting Seat ${seatNumber}...`);
+            
+            try {
+                await fetch(API_BOOK, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                    body: `seatNumber=${seatNumber}&userName=${encodeURIComponent(username)}`
+                });
+                // Optimistically fetch immediately
+                fetchSeats();
+            } catch (error) {
+                console.error('Error booking seat:', error);
+                showToast('Error sending request!');
+            }
+        }
+
+        function showToast(message) {
+            toast.textContent = message;
+            toast.classList.add('show');
+            setTimeout(() => toast.classList.remove('show'), 3000);
+        }
+
+        // Poll every 1 second
+        setInterval(fetchSeats, 1000);
+        
+        // Initial load
+        fetchSeats();
+    </script>
+</body>
+</html>

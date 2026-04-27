@@ -1,20 +1,26 @@
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.List;
+import java.util.Arrays;
 
 public class Application {
     public static void main(String[] args) {
-        BookingLogger.log("=== Web Ticket Booking System Started ===");
+        BookingLogger.log("=== Advanced Bus Ticket Booking System Started ===");
 
-        // Increased seats for better UI visualization
-        int totalSeats = 20;
-        long holdTimeoutMillis = 3000; // 3 seconds timeout for holding a seat
+        BookingSystem bookingSystem = new BookingSystem();
 
-        BookingSystem bookingSystem = new BookingSystem(totalSeats, holdTimeoutMillis);
+        // Initialize multiple buses
+        Bus bus1 = new Bus("Express-101", "Express Highway Runner", 20, 10);
+        Bus bus2 = new Bus("NightRider-202", "Midnight Sleeper", 15, 10);
+        bookingSystem.addBus(bus1);
+        bookingSystem.addBus(bus2);
 
-        // Start the daemon thread to monitor timeouts
-        Thread timeoutMonitorThread = new Thread(new TimeoutMonitor(bookingSystem, 500));
-        timeoutMonitorThread.setDaemon(true);
-        timeoutMonitorThread.start();
+        // Pre-initialize some dates for demonstration
+        List<String> dates = Arrays.asList("2026-04-28", "2026-04-29", "2026-04-30");
+        for (String date : dates) {
+            bus1.getSeatManager(date);
+            bus2.getSeatManager(date);
+        }
 
         // Use a thread pool for processing user bookings
         ExecutorService executorService = Executors.newFixedThreadPool(15);
@@ -34,14 +40,21 @@ public class Application {
         Thread simulatorThread = new Thread(() -> {
             try {
                 int botCounter = 1;
+                List<Bus> busList = Arrays.asList(bus1, bus2);
+                
                 while (!Thread.currentThread().isInterrupted()) {
                     // Random delay between 1 to 5 seconds
                     Thread.sleep(1000 + (long)(Math.random() * 4000));
                     
-                    int targetSeat = (int) (Math.random() * totalSeats) + 1;
+                    Bus randomBus = busList.get((int) (Math.random() * busList.size()));
+                    String randomDate = dates.get((int) (Math.random() * dates.size()));
+                    
+                    // The bots don't know the exact capacity, we just guess 1-15
+                    int targetSeat = (int) (Math.random() * 15) + 1;
                     boolean simulateTimeout = Math.random() < 0.3; // 30% chance bot fails to pay
                     
-                    UserTask botTask = new UserTask(bookingSystem, "Bot-" + botCounter++, targetSeat, simulateTimeout);
+                    UserTask botTask = new UserTask(bookingSystem, randomBus.getBusId(), randomDate, 
+                                                    "Bot-" + botCounter++, targetSeat, simulateTimeout);
                     executorService.submit(botTask);
                 }
             } catch (InterruptedException e) {
@@ -56,6 +69,7 @@ public class Application {
             Thread.currentThread().join();
         } catch (InterruptedException e) {
             BookingLogger.log("Application interrupted.");
+            bookingSystem.shutdownAll();
         }
     }
 }

@@ -27,8 +27,9 @@ public class WebServer {
         server.createContext("/", new StaticFileHandler("index.html"));
         server.createContext("/api/seats", new SeatsApiHandler());
         server.createContext("/api/book", new BookApiHandler());
+        server.createContext("/api/cancel", new CancelApiHandler());
+        server.createContext("/api/reset", new ResetApiHandler());
         
-        // Use a small thread pool for HTTP requests to prevent blocking
         server.setExecutor(java.util.concurrent.Executors.newCachedThreadPool()); 
         server.start();
         BookingLogger.log("WebServer started on http://localhost:" + port);
@@ -40,7 +41,15 @@ public class WebServer {
         }
     }
 
-    // --- Handlers ---
+    private void sendJsonResponse(HttpExchange exchange, int statusCode, String jsonResponse) throws IOException {
+        byte[] response = jsonResponse.getBytes(StandardCharsets.UTF_8);
+        exchange.getResponseHeaders().set("Content-Type", "application/json; charset=UTF-8");
+        exchange.getResponseHeaders().set("Access-Control-Allow-Origin", "*");
+        exchange.sendResponseHeaders(statusCode, response.length);
+        try (OutputStream os = exchange.getResponseBody()) {
+            os.write(response);
+        }
+    }
 
     private class StaticFileHandler implements HttpHandler {
         private final String fileName;
@@ -71,16 +80,34 @@ public class WebServer {
     private class SeatsApiHandler implements HttpHandler {
         @Override
         public void handle(HttpExchange exchange) throws IOException {
-            // Build a simple JSON array manually to avoid external libraries
+            String query = exchange.getRequestURI().getQuery();
+            String busId = "Express-101"; // Default
+            String date = "2026-04-28"; // Default
+            
+            if (query != null) {
+                String[] params = query.split("&");
+                for (String param : params) {
+                    String[] pair = param.split("=");
+                    if (pair.length == 2) {
+                        if ("busId".equals(pair[0])) busId = pair[1];
+                        if ("date".equals(pair[0])) date = pair[1];
+                    }
+                }
+            }
+
+            Bus bus = bookingSystem.getBus(busId);
+            if (bus == null) {
+                sendJsonResponse(exchange, 404, "[]");
+                return;
+            }
+
+            SeatManager manager = bus.getSeatManager(date);
             StringBuilder json = new StringBuilder("[");
             boolean first = true;
-            for (Seat seat : bookingSystem.getSeats()) {
-                if (!first) {
-                    json.append(",");
-                }
+            for (Seat seat : manager.getSeats()) {
+                if (!first) json.append(",");
                 first = false;
                 
-                // Read fields safely
                 String status = seat.getStatus().toString();
                 String holder = seat.getHolderName() != null ? seat.getHolderName() : "";
                 
@@ -92,63 +119,82 @@ public class WebServer {
             }
             json.append("]");
 
-            byte[] response = json.toString().getBytes(StandardCharsets.UTF_8);
-            exchange.getResponseHeaders().set("Content-Type", "application/json; charset=UTF-8");
-            
-            // Allow CORS just in case
-            exchange.getResponseHeaders().set("Access-Control-Allow-Origin", "*");
-            
-            exchange.sendResponseHeaders(200, response.length);
-            try (OutputStream os = exchange.getResponseBody()) {
-                os.write(response);
-            }
+            sendJsonResponse(exchange, 200, json.toString());
         }
     }
 
-    private class BookApiHandler implements HttpHandler {
+    private abstract class BasePostApiHandler implements HttpHandler {
         @Override
         public void handle(HttpExchange exchange) throws IOException {
             if ("POST".equalsIgnoreCase(exchange.getRequestMethod())) {
                 String query = new String(exchange.getRequestBody().readAllBytes(), StandardCharsets.UTF_8);
-                // Simple parsing for: seatNumber=3&userName=Alice
                 String[] params = query.split("&");
+                
                 int seatNumber = -1;
                 String userName = "Anonymous";
+                String busId = "Express-101";
+                String date = "2026-04-28";
 
                 for (String param : params) {
                     String[] pair = param.split("=");
                     if (pair.length == 2) {
                         if ("seatNumber".equals(pair[0])) {
-                            try {
-                                seatNumber = Integer.parseInt(pair[1]);
-                            } catch (NumberFormatException ignored) {}
+                            try { seatNumber = Integer.parseInt(pair[1]); } catch (Exception ignored) {}
                         } else if ("userName".equals(pair[0])) {
                             userName = java.net.URLDecoder.decode(pair[1], StandardCharsets.UTF_8);
+                        } else if ("busId".equals(pair[0])) {
+                            busId = pair[1];
+                        } else if ("date".equals(pair[0])) {
+                            date = pair[1];
                         }
                     }
                 }
 
                 if (seatNumber != -1) {
-                    // Simulate normal wait (false) for payment via WebUI
-                    UserTask task = new UserTask(bookingSystem, userName, seatNumber, false);
-                    executorService.submit(task);
-
-                    String response = "{\"success\":true}";
-                    exchange.getResponseHeaders().set("Content-Type", "application/json; charset=UTF-8");
-                    exchange.sendResponseHeaders(200, response.length());
-                    try (OutputStream os = exchange.getResponseBody()) {
-                        os.write(response.getBytes());
-                    }
+                    processPost(exchange, busId, date, seatNumber, userName);
                     return;
                 }
             }
+            sendJsonResponse(exchange, 400, "{\"error\":\"Invalid request\"}");
+        }
 
-            // Bad request
-            String response = "{\"error\":\"Invalid request\"}";
-            exchange.sendResponseHeaders(400, response.length());
-            try (OutputStream os = exchange.getResponseBody()) {
-                os.write(response.getBytes());
+        protected abstract void processPost(HttpExchange exchange, String busId, String date, int seatNumber, String userName) throws IOException;
+    }
+
+    private class BookApiHandler extends BasePostApiHandler {
+        @Override
+        protected void processPost(HttpExchange exchange, String busId, String date, int seatNumber, String userName) throws IOException {
+            UserTask task = new UserTask(bookingSystem, busId, date, userName, seatNumber, false);
+            executorService.submit(task);
+            sendJsonResponse(exchange, 200, "{\"success\":true}");
+        }
+    }
+
+    private class CancelApiHandler extends BasePostApiHandler {
+        @Override
+        protected void processPost(HttpExchange exchange, String busId, String date, int seatNumber, String userName) throws IOException {
+            Bus bus = bookingSystem.getBus(busId);
+            if (bus != null) {
+                SeatManager sm = bus.getSeatManager(date);
+                // Attempt to deselect (if SELECTED) or cancel (if BOOKED)
+                boolean deselected = sm.deselectSeat(seatNumber, userName);
+                boolean cancelled = sm.cancelBooking(seatNumber, userName);
+                
+                sendJsonResponse(exchange, 200, "{\"success\":" + (deselected || cancelled) + "}");
+            } else {
+                sendJsonResponse(exchange, 404, "{\"success\":false}");
             }
+        }
+    }
+
+    private class ResetApiHandler extends BasePostApiHandler {
+        @Override
+        protected void processPost(HttpExchange exchange, String busId, String date, int seatNumber, String userName) throws IOException {
+            Bus bus = bookingSystem.getBus(busId);
+            if (bus != null) {
+                bus.getSeatManager(date).resetAllSeats();
+            }
+            sendJsonResponse(exchange, 200, "{\"success\":true}");
         }
     }
 }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live Ticket Booking System</title>
+    <title>Advanced Bus Booking Platform</title>
     <style>
         :root {
             --bg-color: #0f172a;
@@ -71,7 +71,7 @@
             flex-wrap: wrap;
         }
 
-        input[type="text"] {
+        input[type="text"], select {
             padding: 0.75rem 1rem;
             border-radius: 8px;
             border: 1px solid rgba(255, 255, 255, 0.2);
@@ -82,8 +82,29 @@
             transition: border-color 0.3s;
         }
 
-        input[type="text"]:focus {
+        input[type="text"]:focus, select:focus {
             border-color: var(--accent);
+        }
+
+        select option {
+            background: #1e293b;
+            color: white;
+        }
+
+        .reset-btn {
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            border: none;
+            background: #ef4444;
+            color: white;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .reset-btn:hover {
+            background: #dc2626;
         }
 
         .legend {
@@ -91,6 +112,7 @@
             justify-content: center;
             gap: 1.5rem;
             margin-top: 0.5rem;
+            flex-wrap: wrap;
         }
 
         .legend-item {
@@ -152,7 +174,7 @@
             box-shadow: 0 10px 15px -3px rgba(16, 185, 129, 0.4);
         }
 
-        .seat.HELD {
+        .seat.SELECTED {
             background-color: var(--held);
             border: 2px solid var(--held);
             cursor: not-allowed;
@@ -213,13 +235,25 @@
 <body>
 
     <header>
-        <h1>Live Ticket Booking System</h1>
-        <p class="subtitle">Experience concurrent seat booking in real-time</p>
+        <h1>Advanced Bus Booking Platform</h1>
+        <p class="subtitle">Concurrent Seat Selection with 10s Lock Timeout</p>
     </header>
 
     <div class="container">
         <div class="controls">
+            <select id="busSelect" onchange="fetchSeats()">
+                <option value="Express-101">Express-101</option>
+                <option value="NightRider-202">NightRider-202</option>
+            </select>
+            
+            <select id="dateSelect" onchange="fetchSeats()">
+                <option value="2026-04-28">2026-04-28</option>
+                <option value="2026-04-29">2026-04-29</option>
+                <option value="2026-04-30">2026-04-30</option>
+            </select>
+
             <input type="text" id="username" placeholder="Enter your name" value="WebUser">
+            <button class="reset-btn" onclick="resetSeats()">Reset This Bus/Date</button>
         </div>
 
         <div class="legend">
@@ -227,7 +261,7 @@
                 <div class="legend-color" style="background: var(--available);"></div> Available
             </div>
             <div class="legend-item">
-                <div class="legend-color" style="background: var(--held);"></div> Held (Processing)
+                <div class="legend-color" style="background: var(--held);"></div> Selected (10s Lock)
             </div>
             <div class="legend-item">
                 <div class="legend-color" style="background: var(--booked);"></div> Booked
@@ -244,14 +278,28 @@
     <script>
         const API_SEATS = '/api/seats';
         const API_BOOK = '/api/book';
+        const API_RESET = '/api/reset';
+        const API_CANCEL = '/api/cancel';
+        
         const grid = document.getElementById('seats-grid');
         const usernameInput = document.getElementById('username');
+        const busSelect = document.getElementById('busSelect');
+        const dateSelect = document.getElementById('dateSelect');
         const toast = document.getElementById('toast');
+
+        function getQueryParams() {
+            return `?busId=${encodeURIComponent(busSelect.value)}&date=${encodeURIComponent(dateSelect.value)}`;
+        }
+
+        function getPostData(seatNumber) {
+            const username = usernameInput.value.trim() || 'Anonymous';
+            return `seatNumber=${seatNumber}&userName=${encodeURIComponent(username)}&busId=${encodeURIComponent(busSelect.value)}&date=${encodeURIComponent(dateSelect.value)}`;
+        }
 
         // Fetch and render seats
         async function fetchSeats() {
             try {
-                const response = await fetch(API_SEATS);
+                const response = await fetch(API_SEATS + getQueryParams());
                 const seats = await response.json();
                 renderSeats(seats);
             } catch (error) {
@@ -260,6 +308,7 @@
         }
 
         function renderSeats(seats) {
+            const currentUserName = usernameInput.value.trim() || 'Anonymous';
             grid.innerHTML = '';
             seats.forEach(seat => {
                 const div = document.createElement('div');
@@ -271,6 +320,10 @@
                 
                 if (seat.status === 'AVAILABLE') {
                     div.onclick = () => bookSeat(seat.seatNumber);
+                } else if ((seat.status === 'BOOKED' || seat.status === 'SELECTED') && seat.holderName === currentUserName) {
+                    div.onclick = () => cancelSeat(seat.seatNumber);
+                    div.style.cursor = 'pointer';
+                    div.title = "Click to deselect/cancel";
                 }
                 
                 grid.appendChild(div);
@@ -278,20 +331,51 @@
         }
 
         async function bookSeat(seatNumber) {
-            const username = usernameInput.value.trim() || 'Anonymous';
             showToast(`Requesting Seat ${seatNumber}...`);
-            
             try {
                 await fetch(API_BOOK, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                    body: `seatNumber=${seatNumber}&userName=${encodeURIComponent(username)}`
+                    body: getPostData(seatNumber)
                 });
-                // Optimistically fetch immediately
                 fetchSeats();
             } catch (error) {
                 console.error('Error booking seat:', error);
                 showToast('Error sending request!');
+            }
+        }
+
+        async function cancelSeat(seatNumber) {
+            showToast(`Cancelling Seat ${seatNumber}...`);
+            try {
+                const response = await fetch(API_CANCEL, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                    body: getPostData(seatNumber)
+                });
+                const data = await response.json();
+                if (!data.success) {
+                    showToast('Failed to cancel (You must be the owner)');
+                }
+                fetchSeats();
+            } catch (error) {
+                console.error('Error cancelling seat:', error);
+                showToast('Error cancelling request!');
+            }
+        }
+
+        async function resetSeats() {
+            showToast("Resetting seats...");
+            try {
+                await fetch(API_RESET, { 
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                    body: getPostData(0) // Dummy seat number just to pass bus and date
+                });
+                fetchSeats();
+            } catch (error) {
+                console.error('Error resetting seats:', error);
+                showToast('Error resetting seats!');
             }
         }
 

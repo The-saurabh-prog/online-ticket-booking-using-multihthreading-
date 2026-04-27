@@ -2,13 +2,17 @@ import java.util.Random;
 
 public class UserTask implements Runnable {
     private final BookingSystem bookingSystem;
+    private final String busId;
+    private final String date;
     private final String userName;
     private final int seatNumberToBook;
     private final boolean simulateTimeout;
     private final Random random = new Random();
 
-    public UserTask(BookingSystem bookingSystem, String userName, int seatNumberToBook, boolean simulateTimeout) {
+    public UserTask(BookingSystem bookingSystem, String busId, String date, String userName, int seatNumberToBook, boolean simulateTimeout) {
         this.bookingSystem = bookingSystem;
+        this.busId = busId;
+        this.date = date;
         this.userName = userName;
         this.seatNumberToBook = seatNumberToBook;
         this.simulateTimeout = simulateTimeout;
@@ -16,37 +20,27 @@ public class UserTask implements Runnable {
 
     @Override
     public void run() {
-        BookingLogger.log(userName + " is attempting to book Seat-" + seatNumberToBook);
+        Bus bus = bookingSystem.getBus(busId);
+        if (bus == null) return;
+        SeatManager seatManager = bus.getSeatManager(date);
 
-        // Try to hold the seat
-        boolean isHeld = bookingSystem.tryHoldSeat(seatNumberToBook, userName);
+        // Try to select the seat
+        boolean isSelected = seatManager.selectSeat(seatNumberToBook, userName);
 
-        if (isHeld) {
+        if (isSelected) {
             try {
-                // Simulate time taken for payment process
                 if (simulateTimeout) {
                     BookingLogger.log(userName + " is taking too long to pay for Seat-" + seatNumberToBook + "...");
-                    Thread.sleep(4000); // Sleep longer than the timeout
+                    Thread.sleep(15000); // Sleep longer than the 10 second timeout
                 } else {
                     BookingLogger.log(userName + " is processing payment for Seat-" + seatNumberToBook + "...");
-                    Thread.sleep(500 + random.nextInt(1000)); // Normal payment delay
+                    Thread.sleep(500 + random.nextInt(1000)); // Normal delay
+                    seatManager.confirmBooking(seatNumberToBook, userName);
                 }
-
-                // If not simulating a timeout, try to confirm booking
-                if (!simulateTimeout) {
-                    bookingSystem.confirmBooking(seatNumberToBook, userName);
-                } else {
-                    // Let the timeout monitor handle the expiration
-                    // We don't confirm here
-                }
-
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
-                BookingLogger.log(userName + "'s transaction was interrupted.");
-                bookingSystem.cancelHold(seatNumberToBook, userName);
+                seatManager.deselectSeat(seatNumberToBook, userName);
             }
-        } else {
-            // Seat is already booked, tryHoldSeat already logged the failure
         }
     }
 }

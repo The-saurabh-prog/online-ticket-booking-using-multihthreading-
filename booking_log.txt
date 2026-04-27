@@ -549,3 +549,1131 @@
 [2026-04-27 11:53:03.610] [pool-1-thread-7] Bot-214 failed: Seat-5 is already booked.
 [2026-04-27 11:53:06.363] [pool-1-thread-8] Bot-215 is attempting to book Seat-13
 [2026-04-27 11:53:06.364] [pool-1-thread-8] Bot-215 failed: Seat-13 is already booked.
+[2026-04-27 11:53:10.042] [pool-1-thread-9] Bot-216 is attempting to book Seat-14
+[2026-04-27 11:53:10.043] [pool-1-thread-9] Bot-216 failed: Seat-14 is already booked.
+[2026-04-27 11:53:12.101] [pool-1-thread-12] Bot-217 is attempting to book Seat-19
+[2026-04-27 11:53:12.102] [pool-1-thread-12] Bot-217 failed: Seat-19 is already booked.
+[2026-04-27 11:53:13.803] [pool-1-thread-10] Bot-218 is attempting to book Seat-17
+[2026-04-27 11:53:13.804] [pool-1-thread-10] Bot-218 failed: Seat-17 is already booked.
+[2026-04-27 11:53:15.936] [pool-1-thread-11] Bot-219 is attempting to book Seat-16
+[2026-04-27 11:53:15.937] [pool-1-thread-11] Bot-219 failed: Seat-16 is already booked.
+[2026-04-27 11:53:20.427] [pool-1-thread-13] Bot-220 is attempting to book Seat-17
+[2026-04-27 11:53:20.429] [pool-1-thread-13] Bot-220 failed: Seat-17 is already booked.
+[2026-04-27 11:53:24.659] [pool-1-thread-15] Bot-221 is attempting to book Seat-15
+[2026-04-27 11:53:24.660] [pool-1-thread-15] Bot-221 failed: Seat-15 is already booked.
+[2026-04-27 11:53:27.907] [pool-1-thread-14] Bot-222 is attempting to book Seat-14
+[2026-04-27 11:53:27.908] [pool-1-thread-14] Bot-222 failed: Seat-14 is already booked.
+[2026-04-27 11:53:30.615] [pool-1-thread-1] Bot-223 is attempting to book Seat-9
+[2026-04-27 11:53:30.616] [pool-1-thread-1] Bot-223 failed: Seat-9 is already booked.
+[2026-04-27 11:53:32.607] [pool-1-thread-2] Bot-224 is attempting to book Seat-3
+[2026-04-27 11:53:32.608] [pool-1-thread-2] Bot-224 failed: Seat-3 is already booked.
+[2026-04-27 11:53:34.397] [pool-1-thread-3] Bot-225 is attempting to book Seat-18
+[2026-04-27 11:53:34.398] [pool-1-thread-3] Bot-225 failed: Seat-18 is already booked.
+[2026-04-27 11:53:39.285] [pool-1-thread-5] Bot-226 is attempting to book Seat-11
+[2026-04-27 11:53:39.285] [pool-1-thread-5] Bot-226 failed: Seat-11 is already booked.
+[2026-04-27 11:53:42.626] [pool-1-thread-6] Bot-227 is attempting to book Seat-7
+[2026-04-27 11:53:42.627] [pool-1-thread-6] Bot-227 failed: Seat-7 is already booked.
+[2026-04-27 11:53:47.108] [pool-1-thread-4] Bot-228 is attempting to book Seat-17
+[2026-04-27 11:53:47.110] [pool-1-thread-4] Bot-228 failed: Seat-17 is already booked.
+[2026-04-27 11:53:48.618] [pool-1-thread-7] Bot-229 is attempting to book Seat-5
+[2026-04-27 11:53:48.619] [pool-1-thread-7] Bot-229 failed: Seat-5 is already booked.
+[2026-04-27 11:53:53.515] [pool-1-thread-8] Bot-230 is attempting to book Seat-11
+[2026-04-27 11:53:53.516] [pool-1-thread-8] Bot-230 failed: Seat-11 is already booked.
+[2026-04-27 11:53:55.600] [pool-1-thread-9] Bot-231 is attempting to book Seat-8
+[2026-04-27 11:53:55.600] [pool-1-thread-9] Bot-231 failed: Seat-8 is already booked.
+[2026-04-27 11:53:59.959] [pool-1-thread-12] Bot-232 is attempting to book Seat-15
+[2026-04-27 11:53:59.959] [pool-1-thread-12] Bot-232 failed: Seat-15 is already booked.
+[2026-04-27 11:54:03.958] [pool-1-thread-10] Bot-233 is attempting to book Seat-9
+[2026-04-27 11:54:03.960] [pool-1-thread-10] Bot-233 failed: Seat-9 is already booked.
+[2026-04-27 11:54:08.668] [pool-1-thread-11] Bot-234 is attempting to book Seat-13
+[2026-04-27 11:54:08.669] [pool-1-thread-11] Bot-234 failed: Seat-13 is already booked.
+[2026-04-27 11:54:10.332] [pool-1-thread-13] Bot-235 is attempting to book Seat-16
+[2026-04-27 11:54:10.333] [pool-1-thread-13] Bot-235 failed: Seat-16 is already booked.
+[2026-04-27 11:54:11.713] [pool-1-thread-15] Bot-236 is attempting to book Seat-12
+[2026-04-27 11:54:11.713] [pool-1-thread-15] Bot-236 failed: Seat-12 is already booked.
+[2026-04-27 11:54:16.551] [pool-1-thread-14] Bot-237 is attempting to book Seat-3
+[2026-04-27 11:54:16.553] [pool-1-thread-14] Bot-237 failed: Seat-3 is already booked.
+[2026-04-27 11:54:19.511] [pool-1-thread-1] Bot-238 is attempting to book Seat-19
+[2026-04-27 11:54:19.512] [pool-1-thread-1] Bot-238 failed: Seat-19 is already booked.
+[2026-04-27 11:54:23.973] [pool-1-thread-2] Bot-239 is attempting to book Seat-7
+[2026-04-27 11:54:23.974] [pool-1-thread-2] Bot-239 failed: Seat-7 is already booked.
+[2026-04-27 11:54:28.504] [pool-1-thread-3] Bot-240 is attempting to book Seat-10
+[2026-04-27 11:54:28.505] [pool-1-thread-3] Bot-240 failed: Seat-10 is already booked.
+[2026-04-27 11:54:30.726] [pool-1-thread-5] Bot-241 is attempting to book Seat-20
+[2026-04-27 11:54:30.727] [pool-1-thread-5] Bot-241 failed: Seat-20 is already booked.
+[2026-04-27 11:54:32.561] [pool-1-thread-6] Bot-242 is attempting to book Seat-4
+[2026-04-27 11:54:32.562] [pool-1-thread-6] Bot-242 failed: Seat-4 is already booked.
+[2026-04-27 11:54:36.906] [pool-1-thread-4] Bot-243 is attempting to book Seat-19
+[2026-04-27 11:54:36.907] [pool-1-thread-4] Bot-243 failed: Seat-19 is already booked.
+[2026-04-27 11:54:40.803] [pool-1-thread-7] Bot-244 is attempting to book Seat-19
+[2026-04-27 11:54:40.804] [pool-1-thread-7] Bot-244 failed: Seat-19 is already booked.
+[2026-04-27 11:54:44.102] [pool-1-thread-8] Bot-245 is attempting to book Seat-17
+[2026-04-27 11:54:44.102] [pool-1-thread-8] Bot-245 failed: Seat-17 is already booked.
+[2026-04-27 11:54:47.659] [pool-1-thread-9] Bot-246 is attempting to book Seat-1
+[2026-04-27 11:54:47.660] [pool-1-thread-9] Bot-246 failed: Seat-1 is already booked.
+[2026-04-27 11:54:50.421] [pool-1-thread-12] Bot-247 is attempting to book Seat-5
+[2026-04-27 11:54:50.422] [pool-1-thread-12] Bot-247 failed: Seat-5 is already booked.
+[2026-04-27 11:54:55.198] [pool-1-thread-10] Bot-248 is attempting to book Seat-8
+[2026-04-27 11:54:55.198] [pool-1-thread-10] Bot-248 failed: Seat-8 is already booked.
+[2026-04-27 11:54:57.801] [pool-1-thread-11] Bot-249 is attempting to book Seat-16
+[2026-04-27 11:54:57.802] [pool-1-thread-11] Bot-249 failed: Seat-16 is already booked.
+[2026-04-27 11:55:00.811] [pool-1-thread-13] Bot-250 is attempting to book Seat-20
+[2026-04-27 11:55:00.811] [pool-1-thread-13] Bot-250 failed: Seat-20 is already booked.
+[2026-04-27 11:55:04.711] [pool-1-thread-15] Bot-251 is attempting to book Seat-14
+[2026-04-27 11:55:04.712] [pool-1-thread-15] Bot-251 failed: Seat-14 is already booked.
+[2026-04-27 11:55:09.524] [pool-1-thread-14] Bot-252 is attempting to book Seat-16
+[2026-04-27 11:55:09.526] [pool-1-thread-14] Bot-252 failed: Seat-16 is already booked.
+[2026-04-27 11:55:14.006] [pool-1-thread-1] Bot-253 is attempting to book Seat-13
+[2026-04-27 11:55:14.007] [pool-1-thread-1] Bot-253 failed: Seat-13 is already booked.
+[2026-04-27 11:55:15.598] [pool-1-thread-2] Bot-254 is attempting to book Seat-9
+[2026-04-27 11:55:15.600] [pool-1-thread-2] Bot-254 failed: Seat-9 is already booked.
+[2026-04-27 11:55:17.666] [pool-1-thread-3] Bot-255 is attempting to book Seat-8
+[2026-04-27 11:55:17.666] [pool-1-thread-3] Bot-255 failed: Seat-8 is already booked.
+[2026-04-27 11:55:21.682] [pool-1-thread-5] Bot-256 is attempting to book Seat-15
+[2026-04-27 11:55:21.683] [pool-1-thread-5] Bot-256 failed: Seat-15 is already booked.
+[2026-04-27 11:55:22.923] [pool-1-thread-6] Bot-257 is attempting to book Seat-14
+[2026-04-27 11:55:22.924] [pool-1-thread-6] Bot-257 failed: Seat-14 is already booked.
+[2026-04-27 11:55:26.097] [pool-1-thread-4] Bot-258 is attempting to book Seat-9
+[2026-04-27 11:55:26.098] [pool-1-thread-4] Bot-258 failed: Seat-9 is already booked.
+[2026-04-27 11:55:27.156] [pool-1-thread-7] Bot-259 is attempting to book Seat-14
+[2026-04-27 11:55:27.156] [pool-1-thread-7] Bot-259 failed: Seat-14 is already booked.
+[2026-04-27 11:55:30.708] [pool-1-thread-8] Bot-260 is attempting to book Seat-18
+[2026-04-27 11:55:30.710] [pool-1-thread-8] Bot-260 failed: Seat-18 is already booked.
+[2026-04-27 11:55:34.748] [pool-1-thread-9] Bot-261 is attempting to book Seat-13
+[2026-04-27 11:55:34.749] [pool-1-thread-9] Bot-261 failed: Seat-13 is already booked.
+[2026-04-27 11:55:36.145] [pool-1-thread-12] Bot-262 is attempting to book Seat-6
+[2026-04-27 11:55:36.147] [pool-1-thread-12] Bot-262 failed: Seat-6 is already booked.
+[2026-04-27 11:55:38.271] [pool-1-thread-10] Bot-263 is attempting to book Seat-20
+[2026-04-27 11:55:38.273] [pool-1-thread-10] Bot-263 failed: Seat-20 is already booked.
+[2026-04-27 11:55:40.532] [pool-1-thread-11] Bot-264 is attempting to book Seat-2
+[2026-04-27 11:55:40.534] [pool-1-thread-11] Bot-264 failed: Seat-2 is already booked.
+[2026-04-27 11:55:42.592] [pool-1-thread-13] Bot-265 is attempting to book Seat-18
+[2026-04-27 11:55:42.594] [pool-1-thread-13] Bot-265 failed: Seat-18 is already booked.
+[2026-04-27 11:55:46.764] [pool-1-thread-15] Bot-266 is attempting to book Seat-12
+[2026-04-27 11:55:46.766] [pool-1-thread-15] Bot-266 failed: Seat-12 is already booked.
+[2026-04-27 11:55:49.278] [pool-1-thread-14] Bot-267 is attempting to book Seat-15
+[2026-04-27 11:55:49.281] [pool-1-thread-14] Bot-267 failed: Seat-15 is already booked.
+[2026-04-27 11:55:52.339] [pool-1-thread-1] Bot-268 is attempting to book Seat-9
+[2026-04-27 11:55:52.339] [pool-1-thread-1] Bot-268 failed: Seat-9 is already booked.
+[2026-04-27 11:55:54.169] [pool-1-thread-2] Bot-269 is attempting to book Seat-5
+[2026-04-27 11:55:54.170] [pool-1-thread-2] Bot-269 failed: Seat-5 is already booked.
+[2026-04-27 11:55:56.130] [pool-1-thread-3] Bot-270 is attempting to book Seat-7
+[2026-04-27 11:55:56.130] [pool-1-thread-3] Bot-270 failed: Seat-7 is already booked.
+[2026-04-27 11:55:58.345] [pool-1-thread-5] Bot-271 is attempting to book Seat-8
+[2026-04-27 11:55:58.346] [pool-1-thread-5] Bot-271 failed: Seat-8 is already booked.
+[2026-04-27 11:56:01.803] [pool-1-thread-6] Bot-272 is attempting to book Seat-9
+[2026-04-27 11:56:01.803] [pool-1-thread-6] Bot-272 failed: Seat-9 is already booked.
+[2026-04-27 11:56:05.299] [pool-1-thread-4] Bot-273 is attempting to book Seat-20
+[2026-04-27 11:56:05.299] [pool-1-thread-4] Bot-273 failed: Seat-20 is already booked.
+[2026-04-27 11:56:09.588] [pool-1-thread-7] Bot-274 is attempting to book Seat-20
+[2026-04-27 11:56:09.589] [pool-1-thread-7] Bot-274 failed: Seat-20 is already booked.
+[2026-04-27 11:56:14.280] [pool-1-thread-8] Bot-275 is attempting to book Seat-13
+[2026-04-27 11:56:14.281] [pool-1-thread-8] Bot-275 failed: Seat-13 is already booked.
+[2026-04-27 11:56:17.797] [pool-1-thread-9] Bot-276 is attempting to book Seat-1
+[2026-04-27 11:56:17.798] [pool-1-thread-9] Bot-276 failed: Seat-1 is already booked.
+[2026-04-27 11:56:19.676] [pool-1-thread-12] Bot-277 is attempting to book Seat-3
+[2026-04-27 11:56:19.677] [pool-1-thread-12] Bot-277 failed: Seat-3 is already booked.
+[2026-04-27 11:56:21.447] [pool-1-thread-10] Bot-278 is attempting to book Seat-12
+[2026-04-27 11:56:21.448] [pool-1-thread-10] Bot-278 failed: Seat-12 is already booked.
+[2026-04-27 11:56:25.198] [pool-1-thread-11] Bot-279 is attempting to book Seat-14
+[2026-04-27 11:56:25.198] [pool-1-thread-11] Bot-279 failed: Seat-14 is already booked.
+[2026-04-27 11:56:29.415] [pool-1-thread-13] Bot-280 is attempting to book Seat-13
+[2026-04-27 11:56:29.416] [pool-1-thread-13] Bot-280 failed: Seat-13 is already booked.
+[2026-04-27 11:56:33.712] [pool-1-thread-15] Bot-281 is attempting to book Seat-14
+[2026-04-27 11:56:33.713] [pool-1-thread-15] Bot-281 failed: Seat-14 is already booked.
+[2026-04-27 11:56:35.984] [pool-1-thread-14] Bot-282 is attempting to book Seat-3
+[2026-04-27 11:56:35.985] [pool-1-thread-14] Bot-282 failed: Seat-3 is already booked.
+[2026-04-27 11:56:39.432] [pool-1-thread-1] Bot-283 is attempting to book Seat-4
+[2026-04-27 11:56:39.433] [pool-1-thread-1] Bot-283 failed: Seat-4 is already booked.
+[2026-04-27 11:56:44.266] [pool-1-thread-2] Bot-284 is attempting to book Seat-19
+[2026-04-27 11:56:44.267] [pool-1-thread-2] Bot-284 failed: Seat-19 is already booked.
+[2026-04-27 11:56:46.728] [pool-1-thread-3] Bot-285 is attempting to book Seat-10
+[2026-04-27 11:56:46.728] [pool-1-thread-3] Bot-285 failed: Seat-10 is already booked.
+[2026-04-27 11:56:49.685] [pool-1-thread-5] Bot-286 is attempting to book Seat-11
+[2026-04-27 11:56:49.686] [pool-1-thread-5] Bot-286 failed: Seat-11 is already booked.
+[2026-04-27 11:56:53.047] [pool-1-thread-6] Bot-287 is attempting to book Seat-9
+[2026-04-27 11:56:53.048] [pool-1-thread-6] Bot-287 failed: Seat-9 is already booked.
+[2026-04-27 11:56:57.122] [pool-1-thread-4] Bot-288 is attempting to book Seat-8
+[2026-04-27 11:56:57.122] [pool-1-thread-4] Bot-288 failed: Seat-8 is already booked.
+[2026-04-27 11:56:59.929] [pool-1-thread-7] Bot-289 is attempting to book Seat-4
+[2026-04-27 11:56:59.929] [pool-1-thread-7] Bot-289 failed: Seat-4 is already booked.
+[2026-04-27 11:57:03.916] [pool-1-thread-8] Bot-290 is attempting to book Seat-12
+[2026-04-27 11:57:03.917] [pool-1-thread-8] Bot-290 failed: Seat-12 is already booked.
+[2026-04-27 11:57:06.727] [pool-1-thread-9] Bot-291 is attempting to book Seat-15
+[2026-04-27 11:57:06.727] [pool-1-thread-9] Bot-291 failed: Seat-15 is already booked.
+[2026-04-27 11:57:09.012] [pool-1-thread-12] Bot-292 is attempting to book Seat-6
+[2026-04-27 11:57:09.013] [pool-1-thread-12] Bot-292 failed: Seat-6 is already booked.
+[2026-04-27 11:57:12.722] [pool-1-thread-10] Bot-293 is attempting to book Seat-15
+[2026-04-27 11:57:12.723] [pool-1-thread-10] Bot-293 failed: Seat-15 is already booked.
+[2026-04-27 11:57:16.659] [pool-1-thread-11] Bot-294 is attempting to book Seat-4
+[2026-04-27 11:57:16.660] [pool-1-thread-11] Bot-294 failed: Seat-4 is already booked.
+[2026-04-27 11:57:18.505] [pool-1-thread-13] Bot-295 is attempting to book Seat-13
+[2026-04-27 11:57:18.506] [pool-1-thread-13] Bot-295 failed: Seat-13 is already booked.
+[2026-04-27 11:57:21.499] [pool-1-thread-15] Bot-296 is attempting to book Seat-18
+[2026-04-27 11:57:21.499] [pool-1-thread-15] Bot-296 failed: Seat-18 is already booked.
+[2026-04-27 11:57:23.374] [pool-1-thread-14] Bot-297 is attempting to book Seat-18
+[2026-04-27 11:57:23.375] [pool-1-thread-14] Bot-297 failed: Seat-18 is already booked.
+[2026-04-27 11:57:24.765] [pool-1-thread-1] Bot-298 is attempting to book Seat-7
+[2026-04-27 11:57:24.766] [pool-1-thread-1] Bot-298 failed: Seat-7 is already booked.
+[2026-04-27 11:57:29.594] [pool-1-thread-2] Bot-299 is attempting to book Seat-10
+[2026-04-27 11:57:29.594] [pool-1-thread-2] Bot-299 failed: Seat-10 is already booked.
+[2026-04-27 11:57:30.813] [pool-1-thread-3] Bot-300 is attempting to book Seat-12
+[2026-04-27 11:57:30.814] [pool-1-thread-3] Bot-300 failed: Seat-12 is already booked.
+[2026-04-27 11:57:35.713] [pool-1-thread-5] Bot-301 is attempting to book Seat-15
+[2026-04-27 11:57:35.714] [pool-1-thread-5] Bot-301 failed: Seat-15 is already booked.
+[2026-04-27 11:57:38.010] [pool-1-thread-6] Bot-302 is attempting to book Seat-9
+[2026-04-27 11:57:38.011] [pool-1-thread-6] Bot-302 failed: Seat-9 is already booked.
+[2026-04-27 11:57:41.610] [pool-1-thread-4] Bot-303 is attempting to book Seat-10
+[2026-04-27 11:57:41.612] [pool-1-thread-4] Bot-303 failed: Seat-10 is already booked.
+[2026-04-27 11:57:45.503] [pool-1-thread-7] Bot-304 is attempting to book Seat-20
+[2026-04-27 11:57:45.504] [pool-1-thread-7] Bot-304 failed: Seat-20 is already booked.
+[2026-04-27 11:57:49.370] [pool-1-thread-8] Bot-305 is attempting to book Seat-3
+[2026-04-27 11:57:49.372] [pool-1-thread-8] Bot-305 failed: Seat-3 is already booked.
+[2026-04-27 11:57:51.429] [pool-1-thread-9] Bot-306 is attempting to book Seat-18
+[2026-04-27 11:57:51.429] [pool-1-thread-9] Bot-306 failed: Seat-18 is already booked.
+[2026-04-27 11:57:54.923] [pool-1-thread-12] Bot-307 is attempting to book Seat-9
+[2026-04-27 11:57:54.924] [pool-1-thread-12] Bot-307 failed: Seat-9 is already booked.
+[2026-04-27 11:57:56.247] [pool-1-thread-10] Bot-308 is attempting to book Seat-6
+[2026-04-27 11:57:56.248] [pool-1-thread-10] Bot-308 failed: Seat-6 is already booked.
+[2026-04-27 11:58:01.073] [pool-1-thread-11] Bot-309 is attempting to book Seat-1
+[2026-04-27 11:58:01.074] [pool-1-thread-11] Bot-309 failed: Seat-1 is already booked.
+[2026-04-27 11:58:03.916] [pool-1-thread-13] Bot-310 is attempting to book Seat-7
+[2026-04-27 11:58:03.917] [pool-1-thread-13] Bot-310 failed: Seat-7 is already booked.
+[2026-04-27 11:58:05.988] [pool-1-thread-15] Bot-311 is attempting to book Seat-19
+[2026-04-27 11:58:05.988] [pool-1-thread-15] Bot-311 failed: Seat-19 is already booked.
+[2026-04-27 11:58:09.624] [pool-1-thread-14] Bot-312 is attempting to book Seat-2
+[2026-04-27 11:58:09.624] [pool-1-thread-14] Bot-312 failed: Seat-2 is already booked.
+[2026-04-27 11:58:11.597] [pool-1-thread-1] Bot-313 is attempting to book Seat-17
+[2026-04-27 11:58:11.597] [pool-1-thread-1] Bot-313 failed: Seat-17 is already booked.
+[2026-04-27 11:58:16.461] [pool-1-thread-2] Bot-314 is attempting to book Seat-2
+[2026-04-27 11:58:16.462] [pool-1-thread-2] Bot-314 failed: Seat-2 is already booked.
+[2026-04-27 11:58:19.323] [pool-1-thread-3] Bot-315 is attempting to book Seat-7
+[2026-04-27 11:58:19.323] [pool-1-thread-3] Bot-315 failed: Seat-7 is already booked.
+[2026-04-27 11:58:21.631] [pool-1-thread-5] Bot-316 is attempting to book Seat-9
+[2026-04-27 11:58:21.632] [pool-1-thread-5] Bot-316 failed: Seat-9 is already booked.
+[2026-04-27 11:58:25.065] [pool-1-thread-6] Bot-317 is attempting to book Seat-9
+[2026-04-27 11:58:25.066] [pool-1-thread-6] Bot-317 failed: Seat-9 is already booked.
+[2026-04-27 11:58:27.979] [pool-1-thread-4] Bot-318 is attempting to book Seat-6
+[2026-04-27 11:58:27.980] [pool-1-thread-4] Bot-318 failed: Seat-6 is already booked.
+[2026-04-27 11:58:31.862] [pool-1-thread-7] Bot-319 is attempting to book Seat-18
+[2026-04-27 11:58:31.864] [pool-1-thread-7] Bot-319 failed: Seat-18 is already booked.
+[2026-04-27 11:58:36.370] [pool-1-thread-8] Bot-320 is attempting to book Seat-10
+[2026-04-27 11:58:36.371] [pool-1-thread-8] Bot-320 failed: Seat-10 is already booked.
+[2026-04-27 11:58:38.493] [pool-1-thread-9] Bot-321 is attempting to book Seat-14
+[2026-04-27 11:58:38.495] [pool-1-thread-9] Bot-321 failed: Seat-14 is already booked.
+[2026-04-27 11:58:40.473] [pool-1-thread-12] Bot-322 is attempting to book Seat-3
+[2026-04-27 11:58:40.473] [pool-1-thread-12] Bot-322 failed: Seat-3 is already booked.
+[2026-04-27 11:58:44.862] [pool-1-thread-10] Bot-323 is attempting to book Seat-14
+[2026-04-27 11:58:44.863] [pool-1-thread-10] Bot-323 failed: Seat-14 is already booked.
+[2026-04-27 11:58:48.285] [pool-1-thread-11] Bot-324 is attempting to book Seat-7
+[2026-04-27 11:58:48.287] [pool-1-thread-11] Bot-324 failed: Seat-7 is already booked.
+[2026-04-27 11:58:52.524] [pool-1-thread-13] Bot-325 is attempting to book Seat-2
+[2026-04-27 11:58:52.527] [pool-1-thread-13] Bot-325 failed: Seat-2 is already booked.
+[2026-04-27 11:58:56.064] [pool-1-thread-15] Bot-326 is attempting to book Seat-3
+[2026-04-27 11:58:56.066] [pool-1-thread-15] Bot-326 failed: Seat-3 is already booked.
+[2026-04-27 11:59:00.881] [pool-1-thread-14] Bot-327 is attempting to book Seat-6
+[2026-04-27 11:59:00.882] [pool-1-thread-14] Bot-327 failed: Seat-6 is already booked.
+[2026-04-27 11:59:04.186] [pool-1-thread-1] Bot-328 is attempting to book Seat-10
+[2026-04-27 11:59:04.187] [pool-1-thread-1] Bot-328 failed: Seat-10 is already booked.
+[2026-04-27 11:59:07.913] [pool-1-thread-2] Bot-329 is attempting to book Seat-15
+[2026-04-27 11:59:07.913] [pool-1-thread-2] Bot-329 failed: Seat-15 is already booked.
+[2026-04-27 11:59:12.797] [pool-1-thread-3] Bot-330 is attempting to book Seat-2
+[2026-04-27 11:59:12.799] [pool-1-thread-3] Bot-330 failed: Seat-2 is already booked.
+[2026-04-27 11:59:14.351] [pool-1-thread-5] Bot-331 is attempting to book Seat-20
+[2026-04-27 11:59:14.351] [pool-1-thread-5] Bot-331 failed: Seat-20 is already booked.
+[2026-04-27 11:59:17.126] [pool-1-thread-6] Bot-332 is attempting to book Seat-5
+[2026-04-27 11:59:17.127] [pool-1-thread-6] Bot-332 failed: Seat-5 is already booked.
+[2026-04-27 11:59:18.637] [pool-1-thread-4] Bot-333 is attempting to book Seat-3
+[2026-04-27 11:59:18.637] [pool-1-thread-4] Bot-333 failed: Seat-3 is already booked.
+[2026-04-27 11:59:23.458] [pool-1-thread-7] Bot-334 is attempting to book Seat-5
+[2026-04-27 11:59:23.459] [pool-1-thread-7] Bot-334 failed: Seat-5 is already booked.
+[2026-04-27 11:59:28.242] [pool-1-thread-8] Bot-335 is attempting to book Seat-11
+[2026-04-27 11:59:28.243] [pool-1-thread-8] Bot-335 failed: Seat-11 is already booked.
+[2026-04-27 11:59:32.582] [pool-1-thread-9] Bot-336 is attempting to book Seat-18
+[2026-04-27 11:59:32.583] [pool-1-thread-9] Bot-336 failed: Seat-18 is already booked.
+[2026-04-27 11:59:36.364] [pool-1-thread-12] Bot-337 is attempting to book Seat-16
+[2026-04-27 11:59:36.365] [pool-1-thread-12] Bot-337 failed: Seat-16 is already booked.
+[2026-04-27 11:59:40.966] [pool-1-thread-10] Bot-338 is attempting to book Seat-12
+[2026-04-27 11:59:40.967] [pool-1-thread-10] Bot-338 failed: Seat-12 is already booked.
+[2026-04-27 11:59:45.677] [pool-1-thread-11] Bot-339 is attempting to book Seat-7
+[2026-04-27 11:59:45.678] [pool-1-thread-11] Bot-339 failed: Seat-7 is already booked.
+[2026-04-27 11:59:48.522] [pool-1-thread-13] Bot-340 is attempting to book Seat-2
+[2026-04-27 11:59:48.523] [pool-1-thread-13] Bot-340 failed: Seat-2 is already booked.
+[2026-04-27 11:59:50.294] [pool-1-thread-15] Bot-341 is attempting to book Seat-9
+[2026-04-27 11:59:50.294] [pool-1-thread-15] Bot-341 failed: Seat-9 is already booked.
+[2026-04-27 11:59:54.317] [pool-1-thread-14] Bot-342 is attempting to book Seat-6
+[2026-04-27 11:59:54.317] [pool-1-thread-14] Bot-342 failed: Seat-6 is already booked.
+[2026-04-27 11:59:59.057] [pool-1-thread-1] Bot-343 is attempting to book Seat-12
+[2026-04-27 11:59:59.058] [pool-1-thread-1] Bot-343 failed: Seat-12 is already booked.
+[2026-04-27 12:00:02.646] [pool-1-thread-2] Bot-344 is attempting to book Seat-14
+[2026-04-27 12:00:02.647] [pool-1-thread-2] Bot-344 failed: Seat-14 is already booked.
+[2026-04-27 12:00:05.012] [pool-1-thread-3] Bot-345 is attempting to book Seat-6
+[2026-04-27 12:00:05.012] [pool-1-thread-3] Bot-345 failed: Seat-6 is already booked.
+[2026-04-27 12:00:06.806] [pool-1-thread-5] Bot-346 is attempting to book Seat-16
+[2026-04-27 12:00:06.807] [pool-1-thread-5] Bot-346 failed: Seat-16 is already booked.
+[2026-04-27 12:00:11.210] [pool-1-thread-6] Bot-347 is attempting to book Seat-15
+[2026-04-27 12:00:11.211] [pool-1-thread-6] Bot-347 failed: Seat-15 is already booked.
+[2026-04-27 12:00:13.293] [pool-1-thread-4] Bot-348 is attempting to book Seat-2
+[2026-04-27 12:00:13.295] [pool-1-thread-4] Bot-348 failed: Seat-2 is already booked.
+[2026-04-27 12:00:15.113] [pool-1-thread-7] Bot-349 is attempting to book Seat-5
+[2026-04-27 12:00:15.114] [pool-1-thread-7] Bot-349 failed: Seat-5 is already booked.
+[2026-04-27 12:00:19.661] [pool-1-thread-8] Bot-350 is attempting to book Seat-15
+[2026-04-27 12:00:19.662] [pool-1-thread-8] Bot-350 failed: Seat-15 is already booked.
+[2026-04-27 12:00:22.162] [pool-1-thread-9] Bot-351 is attempting to book Seat-13
+[2026-04-27 12:00:22.163] [pool-1-thread-9] Bot-351 failed: Seat-13 is already booked.
+[2026-04-27 12:00:26.011] [pool-1-thread-12] Bot-352 is attempting to book Seat-10
+[2026-04-27 12:00:26.012] [pool-1-thread-12] Bot-352 failed: Seat-10 is already booked.
+[2026-04-27 12:00:29.982] [pool-1-thread-10] Bot-353 is attempting to book Seat-15
+[2026-04-27 12:00:29.983] [pool-1-thread-10] Bot-353 failed: Seat-15 is already booked.
+[2026-04-27 12:00:32.826] [pool-1-thread-11] Bot-354 is attempting to book Seat-9
+[2026-04-27 12:00:32.830] [pool-1-thread-11] Bot-354 failed: Seat-9 is already booked.
+[2026-04-27 12:00:34.843] [pool-1-thread-13] Bot-355 is attempting to book Seat-14
+[2026-04-27 12:00:34.844] [pool-1-thread-13] Bot-355 failed: Seat-14 is already booked.
+[2026-04-27 12:00:35.990] [pool-1-thread-15] Bot-356 is attempting to book Seat-6
+[2026-04-27 12:00:35.991] [pool-1-thread-15] Bot-356 failed: Seat-6 is already booked.
+[2026-04-27 12:00:38.549] [pool-1-thread-14] Bot-357 is attempting to book Seat-17
+[2026-04-27 12:00:38.550] [pool-1-thread-14] Bot-357 failed: Seat-17 is already booked.
+[2026-04-27 12:00:43.228] [pool-1-thread-1] Bot-358 is attempting to book Seat-6
+[2026-04-27 12:00:43.229] [pool-1-thread-1] Bot-358 failed: Seat-6 is already booked.
+[2026-04-27 12:00:48.042] [pool-1-thread-2] Bot-359 is attempting to book Seat-19
+[2026-04-27 12:00:48.043] [pool-1-thread-2] Bot-359 failed: Seat-19 is already booked.
+[2026-04-27 12:00:50.464] [pool-1-thread-3] Bot-360 is attempting to book Seat-19
+[2026-04-27 12:00:50.465] [pool-1-thread-3] Bot-360 failed: Seat-19 is already booked.
+[2026-04-27 12:00:53.338] [pool-1-thread-5] Bot-361 is attempting to book Seat-16
+[2026-04-27 12:00:53.340] [pool-1-thread-5] Bot-361 failed: Seat-16 is already booked.
+[2026-04-27 12:00:57.015] [pool-1-thread-6] Bot-362 is attempting to book Seat-15
+[2026-04-27 12:00:57.016] [pool-1-thread-6] Bot-362 failed: Seat-15 is already booked.
+[2026-04-27 12:00:58.912] [pool-1-thread-4] Bot-363 is attempting to book Seat-20
+[2026-04-27 12:00:58.912] [pool-1-thread-4] Bot-363 failed: Seat-20 is already booked.
+[2026-04-27 12:01:00.397] [pool-1-thread-7] Bot-364 is attempting to book Seat-4
+[2026-04-27 12:01:00.398] [pool-1-thread-7] Bot-364 failed: Seat-4 is already booked.
+[2026-04-27 12:01:03.344] [pool-1-thread-8] Bot-365 is attempting to book Seat-20
+[2026-04-27 12:01:03.345] [pool-1-thread-8] Bot-365 failed: Seat-20 is already booked.
+[2026-04-27 12:01:07.299] [pool-1-thread-9] Bot-366 is attempting to book Seat-12
+[2026-04-27 12:01:07.300] [pool-1-thread-9] Bot-366 failed: Seat-12 is already booked.
+[2026-04-27 12:01:09.580] [pool-1-thread-12] Bot-367 is attempting to book Seat-9
+[2026-04-27 12:01:09.581] [pool-1-thread-12] Bot-367 failed: Seat-9 is already booked.
+[2026-04-27 12:01:10.840] [pool-1-thread-10] Bot-368 is attempting to book Seat-5
+[2026-04-27 12:01:10.860] [pool-1-thread-10] Bot-368 failed: Seat-5 is already booked.
+[2026-04-27 12:01:11.850] [pool-1-thread-11] Bot-369 is attempting to book Seat-4
+[2026-04-27 12:01:11.850] [pool-1-thread-11] Bot-369 failed: Seat-4 is already booked.
+[2026-04-27 12:01:15.264] [pool-1-thread-13] Bot-370 is attempting to book Seat-19
+[2026-04-27 12:01:15.265] [pool-1-thread-13] Bot-370 failed: Seat-19 is already booked.
+[2026-04-27 12:01:19.243] [pool-1-thread-15] Bot-371 is attempting to book Seat-4
+[2026-04-27 12:01:19.243] [pool-1-thread-15] Bot-371 failed: Seat-4 is already booked.
+[2026-04-27 12:01:22.099] [pool-1-thread-14] Bot-372 is attempting to book Seat-15
+[2026-04-27 12:01:22.100] [pool-1-thread-14] Bot-372 failed: Seat-15 is already booked.
+[2026-04-27 12:01:25.470] [pool-1-thread-1] Bot-373 is attempting to book Seat-2
+[2026-04-27 12:01:25.471] [pool-1-thread-1] Bot-373 failed: Seat-2 is already booked.
+[2026-04-27 12:01:27.612] [pool-1-thread-2] Bot-374 is attempting to book Seat-19
+[2026-04-27 12:01:27.613] [pool-1-thread-2] Bot-374 failed: Seat-19 is already booked.
+[2026-04-27 12:01:30.301] [pool-1-thread-3] Bot-375 is attempting to book Seat-18
+[2026-04-27 12:01:30.303] [pool-1-thread-3] Bot-375 failed: Seat-18 is already booked.
+[2026-04-27 12:01:33.251] [pool-1-thread-5] Bot-376 is attempting to book Seat-17
+[2026-04-27 12:01:33.252] [pool-1-thread-5] Bot-376 failed: Seat-17 is already booked.
+[2026-04-27 12:01:37.684] [pool-1-thread-6] Bot-377 is attempting to book Seat-9
+[2026-04-27 12:01:37.685] [pool-1-thread-6] Bot-377 failed: Seat-9 is already booked.
+[2026-04-27 12:01:41.377] [pool-1-thread-4] Bot-378 is attempting to book Seat-15
+[2026-04-27 12:01:41.379] [pool-1-thread-4] Bot-378 failed: Seat-15 is already booked.
+[2026-04-27 12:01:46.323] [pool-1-thread-7] Bot-379 is attempting to book Seat-15
+[2026-04-27 12:01:46.323] [pool-1-thread-7] Bot-379 failed: Seat-15 is already booked.
+[2026-04-27 12:01:50.070] [pool-1-thread-8] Bot-380 is attempting to book Seat-19
+[2026-04-27 12:01:50.070] [pool-1-thread-8] Bot-380 failed: Seat-19 is already booked.
+[2026-04-27 12:01:54.795] [pool-1-thread-9] Bot-381 is attempting to book Seat-5
+[2026-04-27 12:01:54.795] [pool-1-thread-9] Bot-381 failed: Seat-5 is already booked.
+[2026-04-27 12:01:57.503] [pool-1-thread-12] Bot-382 is attempting to book Seat-6
+[2026-04-27 12:01:57.504] [pool-1-thread-12] Bot-382 failed: Seat-6 is already booked.
+[2026-04-27 12:02:00.783] [pool-1-thread-10] Bot-383 is attempting to book Seat-14
+[2026-04-27 12:02:00.784] [pool-1-thread-10] Bot-383 failed: Seat-14 is already booked.
+[2026-04-27 12:02:05.223] [pool-1-thread-11] Bot-384 is attempting to book Seat-15
+[2026-04-27 12:02:05.224] [pool-1-thread-11] Bot-384 failed: Seat-15 is already booked.
+[2026-04-27 12:02:10.073] [pool-1-thread-13] Bot-385 is attempting to book Seat-7
+[2026-04-27 12:02:10.073] [pool-1-thread-13] Bot-385 failed: Seat-7 is already booked.
+[2026-04-27 12:02:11.617] [pool-1-thread-15] Bot-386 is attempting to book Seat-17
+[2026-04-27 12:02:11.617] [pool-1-thread-15] Bot-386 failed: Seat-17 is already booked.
+[2026-04-27 12:02:16.601] [pool-1-thread-14] Bot-387 is attempting to book Seat-2
+[2026-04-27 12:02:16.601] [pool-1-thread-14] Bot-387 failed: Seat-2 is already booked.
+[2026-04-27 12:02:21.470] [pool-1-thread-1] Bot-388 is attempting to book Seat-9
+[2026-04-27 12:02:21.470] [pool-1-thread-1] Bot-388 failed: Seat-9 is already booked.
+[2026-04-27 12:02:23.976] [pool-1-thread-2] Bot-389 is attempting to book Seat-3
+[2026-04-27 12:02:23.976] [pool-1-thread-2] Bot-389 failed: Seat-3 is already booked.
+[2026-04-27 12:02:25.733] [pool-1-thread-3] Bot-390 is attempting to book Seat-1
+[2026-04-27 12:02:25.733] [pool-1-thread-3] Bot-390 failed: Seat-1 is already booked.
+[2026-04-27 12:02:29.230] [pool-1-thread-5] Bot-391 is attempting to book Seat-15
+[2026-04-27 12:02:29.260] [pool-1-thread-5] Bot-391 failed: Seat-15 is already booked.
+[2026-04-27 12:02:31.188] [pool-1-thread-6] Bot-392 is attempting to book Seat-8
+[2026-04-27 12:02:31.189] [pool-1-thread-6] Bot-392 failed: Seat-8 is already booked.
+[2026-04-27 12:02:33.496] [pool-1-thread-4] Bot-393 is attempting to book Seat-17
+[2026-04-27 12:02:33.497] [pool-1-thread-4] Bot-393 failed: Seat-17 is already booked.
+[2026-04-27 12:02:35.228] [pool-1-thread-7] Bot-394 is attempting to book Seat-9
+[2026-04-27 12:02:35.229] [pool-1-thread-7] Bot-394 failed: Seat-9 is already booked.
+[2026-04-27 12:02:37.429] [pool-1-thread-8] Bot-395 is attempting to book Seat-5
+[2026-04-27 12:02:37.430] [pool-1-thread-8] Bot-395 failed: Seat-5 is already booked.
+[2026-04-27 12:02:39.269] [pool-1-thread-9] Bot-396 is attempting to book Seat-13
+[2026-04-27 12:02:39.270] [pool-1-thread-9] Bot-396 failed: Seat-13 is already booked.
+[2026-04-27 12:02:43.482] [pool-1-thread-12] Bot-397 is attempting to book Seat-2
+[2026-04-27 12:02:43.483] [pool-1-thread-12] Bot-397 failed: Seat-2 is already booked.
+[2026-04-27 12:02:47.681] [pool-1-thread-10] Bot-398 is attempting to book Seat-11
+[2026-04-27 12:02:47.682] [pool-1-thread-10] Bot-398 failed: Seat-11 is already booked.
+[2026-04-27 12:02:52.479] [pool-1-thread-11] Bot-399 is attempting to book Seat-16
+[2026-04-27 12:02:52.480] [pool-1-thread-11] Bot-399 failed: Seat-16 is already booked.
+[2026-04-27 12:02:53.556] [pool-1-thread-13] Bot-400 is attempting to book Seat-5
+[2026-04-27 12:02:53.557] [pool-1-thread-13] Bot-400 failed: Seat-5 is already booked.
+[2026-04-27 12:02:55.212] [pool-1-thread-15] Bot-401 is attempting to book Seat-15
+[2026-04-27 12:02:55.213] [pool-1-thread-15] Bot-401 failed: Seat-15 is already booked.
+[2026-04-27 12:02:57.942] [pool-1-thread-14] Bot-402 is attempting to book Seat-11
+[2026-04-27 12:02:57.943] [pool-1-thread-14] Bot-402 failed: Seat-11 is already booked.
+[2026-04-27 12:02:59.614] [pool-1-thread-1] Bot-403 is attempting to book Seat-10
+[2026-04-27 12:02:59.615] [pool-1-thread-1] Bot-403 failed: Seat-10 is already booked.
+[2026-04-27 12:03:01.204] [pool-1-thread-2] Bot-404 is attempting to book Seat-12
+[2026-04-27 12:03:01.205] [pool-1-thread-2] Bot-404 failed: Seat-12 is already booked.
+[2026-04-27 12:03:04.539] [pool-1-thread-3] Bot-405 is attempting to book Seat-16
+[2026-04-27 12:03:04.540] [pool-1-thread-3] Bot-405 failed: Seat-16 is already booked.
+[2026-04-27 12:03:06.970] [pool-1-thread-5] Bot-406 is attempting to book Seat-8
+[2026-04-27 12:03:06.970] [pool-1-thread-5] Bot-406 failed: Seat-8 is already booked.
+[2026-04-27 12:03:11.962] [pool-1-thread-6] Bot-407 is attempting to book Seat-14
+[2026-04-27 12:03:11.962] [pool-1-thread-6] Bot-407 failed: Seat-14 is already booked.
+[2026-04-27 12:03:15.253] [pool-1-thread-4] Bot-408 is attempting to book Seat-10
+[2026-04-27 12:03:15.254] [pool-1-thread-4] Bot-408 failed: Seat-10 is already booked.
+[2026-04-27 12:03:19.899] [pool-1-thread-7] Bot-409 is attempting to book Seat-9
+[2026-04-27 12:03:19.900] [pool-1-thread-7] Bot-409 failed: Seat-9 is already booked.
+[2026-04-27 12:03:23.686] [pool-1-thread-8] Bot-410 is attempting to book Seat-1
+[2026-04-27 12:03:23.687] [pool-1-thread-8] Bot-410 failed: Seat-1 is already booked.
+[2026-04-27 12:03:26.941] [pool-1-thread-9] Bot-411 is attempting to book Seat-4
+[2026-04-27 12:03:26.942] [pool-1-thread-9] Bot-411 failed: Seat-4 is already booked.
+[2026-04-27 12:03:28.996] [pool-1-thread-12] Bot-412 is attempting to book Seat-3
+[2026-04-27 12:03:28.997] [pool-1-thread-12] Bot-412 failed: Seat-3 is already booked.
+[2026-04-27 12:03:33.283] [pool-1-thread-10] Bot-413 is attempting to book Seat-2
+[2026-04-27 12:03:33.284] [pool-1-thread-10] Bot-413 failed: Seat-2 is already booked.
+[2026-04-27 12:03:38.255] [pool-1-thread-11] Bot-414 is attempting to book Seat-7
+[2026-04-27 12:03:38.256] [pool-1-thread-11] Bot-414 failed: Seat-7 is already booked.
+[2026-04-27 12:03:42.089] [pool-1-thread-13] Bot-415 is attempting to book Seat-12
+[2026-04-27 12:03:42.090] [pool-1-thread-13] Bot-415 failed: Seat-12 is already booked.
+[2026-04-27 12:03:43.184] [pool-1-thread-15] Bot-416 is attempting to book Seat-17
+[2026-04-27 12:03:43.184] [pool-1-thread-15] Bot-416 failed: Seat-17 is already booked.
+[2026-04-27 12:03:47.679] [pool-1-thread-14] Bot-417 is attempting to book Seat-8
+[2026-04-27 12:03:47.679] [pool-1-thread-14] Bot-417 failed: Seat-8 is already booked.
+[2026-04-27 12:03:49.194] [pool-1-thread-1] Bot-418 is attempting to book Seat-12
+[2026-04-27 12:03:49.196] [pool-1-thread-1] Bot-418 failed: Seat-12 is already booked.
+[2026-04-27 12:03:50.459] [pool-1-thread-2] Bot-419 is attempting to book Seat-3
+[2026-04-27 12:03:50.460] [pool-1-thread-2] Bot-419 failed: Seat-3 is already booked.
+[2026-04-27 12:03:54.405] [pool-1-thread-3] Bot-420 is attempting to book Seat-17
+[2026-04-27 12:03:54.406] [pool-1-thread-3] Bot-420 failed: Seat-17 is already booked.
+[2026-04-27 12:03:55.899] [pool-1-thread-5] Bot-421 is attempting to book Seat-8
+[2026-04-27 12:03:55.900] [pool-1-thread-5] Bot-421 failed: Seat-8 is already booked.
+[2026-04-27 12:04:00.178] [pool-1-thread-6] Bot-422 is attempting to book Seat-5
+[2026-04-27 12:04:00.180] [pool-1-thread-6] Bot-422 failed: Seat-5 is already booked.
+[2026-04-27 12:04:01.318] [pool-1-thread-4] Bot-423 is attempting to book Seat-2
+[2026-04-27 12:04:01.319] [pool-1-thread-4] Bot-423 failed: Seat-2 is already booked.
+[2026-04-27 12:04:04.100] [pool-1-thread-7] Bot-424 is attempting to book Seat-1
+[2026-04-27 12:04:04.101] [pool-1-thread-7] Bot-424 failed: Seat-1 is already booked.
+[2026-04-27 12:04:06.657] [pool-1-thread-8] Bot-425 is attempting to book Seat-14
+[2026-04-27 12:04:06.658] [pool-1-thread-8] Bot-425 failed: Seat-14 is already booked.
+[2026-04-27 12:04:08.166] [pool-1-thread-9] Bot-426 is attempting to book Seat-17
+[2026-04-27 12:04:08.167] [pool-1-thread-9] Bot-426 failed: Seat-17 is already booked.
+[2026-04-27 12:04:09.927] [pool-1-thread-12] Bot-427 is attempting to book Seat-6
+[2026-04-27 12:04:09.928] [pool-1-thread-12] Bot-427 failed: Seat-6 is already booked.
+[2026-04-27 12:04:14.158] [pool-1-thread-10] Bot-428 is attempting to book Seat-6
+[2026-04-27 12:04:14.159] [pool-1-thread-10] Bot-428 failed: Seat-6 is already booked.
+[2026-04-27 12:04:19.104] [pool-1-thread-11] Bot-429 is attempting to book Seat-8
+[2026-04-27 12:04:19.105] [pool-1-thread-11] Bot-429 failed: Seat-8 is already booked.
+[2026-04-27 12:04:20.807] [pool-1-thread-13] Bot-430 is attempting to book Seat-11
+[2026-04-27 12:04:20.808] [pool-1-thread-13] Bot-430 failed: Seat-11 is already booked.
+[2026-04-27 12:04:23.035] [pool-1-thread-15] Bot-431 is attempting to book Seat-6
+[2026-04-27 12:04:23.035] [pool-1-thread-15] Bot-431 failed: Seat-6 is already booked.
+[2026-04-27 12:04:24.386] [pool-1-thread-14] Bot-432 is attempting to book Seat-18
+[2026-04-27 12:04:24.387] [pool-1-thread-14] Bot-432 failed: Seat-18 is already booked.
+[2026-04-27 12:04:28.587] [pool-1-thread-1] Bot-433 is attempting to book Seat-12
+[2026-04-27 12:04:28.588] [pool-1-thread-1] Bot-433 failed: Seat-12 is already booked.
+[2026-04-27 12:04:31.819] [pool-1-thread-2] Bot-434 is attempting to book Seat-5
+[2026-04-27 12:04:31.820] [pool-1-thread-2] Bot-434 failed: Seat-5 is already booked.
+[2026-04-27 12:04:36.776] [pool-1-thread-3] Bot-435 is attempting to book Seat-19
+[2026-04-27 12:04:36.777] [pool-1-thread-3] Bot-435 failed: Seat-19 is already booked.
+[2026-04-27 12:04:38.794] [pool-1-thread-5] Bot-436 is attempting to book Seat-14
+[2026-04-27 12:04:38.795] [pool-1-thread-5] Bot-436 failed: Seat-14 is already booked.
+[2026-04-27 12:04:40.463] [pool-1-thread-6] Bot-437 is attempting to book Seat-3
+[2026-04-27 12:04:40.464] [pool-1-thread-6] Bot-437 failed: Seat-3 is already booked.
+[2026-04-27 12:04:44.810] [pool-1-thread-4] Bot-438 is attempting to book Seat-15
+[2026-04-27 12:04:44.811] [pool-1-thread-4] Bot-438 failed: Seat-15 is already booked.
+[2026-04-27 12:04:46.886] [pool-1-thread-7] Bot-439 is attempting to book Seat-14
+[2026-04-27 12:04:46.887] [pool-1-thread-7] Bot-439 failed: Seat-14 is already booked.
+[2026-04-27 12:04:49.151] [pool-1-thread-8] Bot-440 is attempting to book Seat-11
+[2026-04-27 12:04:49.153] [pool-1-thread-8] Bot-440 failed: Seat-11 is already booked.
+[2026-04-27 12:04:52.436] [pool-1-thread-9] Bot-441 is attempting to book Seat-14
+[2026-04-27 12:04:52.438] [pool-1-thread-9] Bot-441 failed: Seat-14 is already booked.
+[2026-04-27 12:04:54.214] [pool-1-thread-12] Bot-442 is attempting to book Seat-12
+[2026-04-27 12:04:54.215] [pool-1-thread-12] Bot-442 failed: Seat-12 is already booked.
+[2026-04-27 12:04:58.595] [pool-1-thread-10] Bot-443 is attempting to book Seat-3
+[2026-04-27 12:04:58.597] [pool-1-thread-10] Bot-443 failed: Seat-3 is already booked.
+[2026-04-27 12:05:03.062] [pool-1-thread-11] Bot-444 is attempting to book Seat-6
+[2026-04-27 12:05:03.064] [pool-1-thread-11] Bot-444 failed: Seat-6 is already booked.
+[2026-04-27 12:05:06.197] [pool-1-thread-13] Bot-445 is attempting to book Seat-4
+[2026-04-27 12:05:06.198] [pool-1-thread-13] Bot-445 failed: Seat-4 is already booked.
+[2026-04-27 12:05:07.920] [pool-1-thread-15] Bot-446 is attempting to book Seat-4
+[2026-04-27 12:05:07.921] [pool-1-thread-15] Bot-446 failed: Seat-4 is already booked.
+[2026-04-27 12:05:12.796] [pool-1-thread-14] Bot-447 is attempting to book Seat-13
+[2026-04-27 12:05:12.797] [pool-1-thread-14] Bot-447 failed: Seat-13 is already booked.
+[2026-04-27 12:05:15.459] [pool-1-thread-1] Bot-448 is attempting to book Seat-19
+[2026-04-27 12:05:15.459] [pool-1-thread-1] Bot-448 failed: Seat-19 is already booked.
+[2026-04-27 12:05:17.851] [pool-1-thread-2] Bot-449 is attempting to book Seat-12
+[2026-04-27 12:05:17.852] [pool-1-thread-2] Bot-449 failed: Seat-12 is already booked.
+[2026-04-27 12:05:20.672] [pool-1-thread-3] Bot-450 is attempting to book Seat-20
+[2026-04-27 12:05:20.673] [pool-1-thread-3] Bot-450 failed: Seat-20 is already booked.
+[2026-04-27 12:05:24.726] [pool-1-thread-5] Bot-451 is attempting to book Seat-16
+[2026-04-27 12:05:24.727] [pool-1-thread-5] Bot-451 failed: Seat-16 is already booked.
+[2026-04-27 12:05:26.231] [pool-1-thread-6] Bot-452 is attempting to book Seat-17
+[2026-04-27 12:05:26.233] [pool-1-thread-6] Bot-452 failed: Seat-17 is already booked.
+[2026-04-27 12:05:28.357] [pool-1-thread-4] Bot-453 is attempting to book Seat-9
+[2026-04-27 12:05:28.358] [pool-1-thread-4] Bot-453 failed: Seat-9 is already booked.
+[2026-04-27 12:05:31.667] [pool-1-thread-7] Bot-454 is attempting to book Seat-17
+[2026-04-27 12:05:31.668] [pool-1-thread-7] Bot-454 failed: Seat-17 is already booked.
+[2026-04-27 12:05:36.056] [pool-1-thread-8] Bot-455 is attempting to book Seat-18
+[2026-04-27 12:05:36.056] [pool-1-thread-8] Bot-455 failed: Seat-18 is already booked.
+[2026-04-27 12:05:38.989] [pool-1-thread-9] Bot-456 is attempting to book Seat-20
+[2026-04-27 12:05:38.990] [pool-1-thread-9] Bot-456 failed: Seat-20 is already booked.
+[2026-04-27 12:05:43.476] [pool-1-thread-12] Bot-457 is attempting to book Seat-18
+[2026-04-27 12:05:43.476] [pool-1-thread-12] Bot-457 failed: Seat-18 is already booked.
+[2026-04-27 12:05:47.706] [pool-1-thread-10] Bot-458 is attempting to book Seat-4
+[2026-04-27 12:05:47.707] [pool-1-thread-10] Bot-458 failed: Seat-4 is already booked.
+[2026-04-27 12:05:51.429] [pool-1-thread-11] Bot-459 is attempting to book Seat-11
+[2026-04-27 12:05:51.430] [pool-1-thread-11] Bot-459 failed: Seat-11 is already booked.
+[2026-04-27 12:05:54.266] [pool-1-thread-13] Bot-460 is attempting to book Seat-14
+[2026-04-27 12:05:54.267] [pool-1-thread-13] Bot-460 failed: Seat-14 is already booked.
+[2026-04-27 12:05:57.613] [pool-1-thread-15] Bot-461 is attempting to book Seat-14
+[2026-04-27 12:05:57.614] [pool-1-thread-15] Bot-461 failed: Seat-14 is already booked.
+[2026-04-27 12:06:00.512] [pool-1-thread-14] Bot-462 is attempting to book Seat-1
+[2026-04-27 12:06:00.512] [pool-1-thread-14] Bot-462 failed: Seat-1 is already booked.
+[2026-04-27 12:06:04.205] [pool-1-thread-1] Bot-463 is attempting to book Seat-4
+[2026-04-27 12:06:04.205] [pool-1-thread-1] Bot-463 failed: Seat-4 is already booked.
+[2026-04-27 12:06:09.149] [pool-1-thread-2] Bot-464 is attempting to book Seat-7
+[2026-04-27 12:06:09.150] [pool-1-thread-2] Bot-464 failed: Seat-7 is already booked.
+[2026-04-27 12:06:13.723] [pool-1-thread-3] Bot-465 is attempting to book Seat-12
+[2026-04-27 12:06:13.724] [pool-1-thread-3] Bot-465 failed: Seat-12 is already booked.
+[2026-04-27 12:06:16.408] [pool-1-thread-5] Bot-466 is attempting to book Seat-19
+[2026-04-27 12:06:16.408] [pool-1-thread-5] Bot-466 failed: Seat-19 is already booked.
+[2026-04-27 12:06:19.438] [pool-1-thread-6] Bot-467 is attempting to book Seat-11
+[2026-04-27 12:06:19.439] [pool-1-thread-6] Bot-467 failed: Seat-11 is already booked.
+[2026-04-27 12:06:23.501] [pool-1-thread-4] Bot-468 is attempting to book Seat-14
+[2026-04-27 12:06:23.502] [pool-1-thread-4] Bot-468 failed: Seat-14 is already booked.
+[2026-04-27 12:06:28.296] [pool-1-thread-7] Bot-469 is attempting to book Seat-12
+[2026-04-27 12:06:28.297] [pool-1-thread-7] Bot-469 failed: Seat-12 is already booked.
+[2026-04-27 12:06:32.658] [pool-1-thread-8] Bot-470 is attempting to book Seat-13
+[2026-04-27 12:06:32.659] [pool-1-thread-8] Bot-470 failed: Seat-13 is already booked.
+[2026-04-27 12:06:34.614] [pool-1-thread-9] Bot-471 is attempting to book Seat-20
+[2026-04-27 12:06:34.614] [pool-1-thread-9] Bot-471 failed: Seat-20 is already booked.
+[2026-04-27 12:06:38.605] [pool-1-thread-12] Bot-472 is attempting to book Seat-7
+[2026-04-27 12:06:38.606] [pool-1-thread-12] Bot-472 failed: Seat-7 is already booked.
+[2026-04-27 12:06:42.310] [pool-1-thread-10] Bot-473 is attempting to book Seat-19
+[2026-04-27 12:06:42.310] [pool-1-thread-10] Bot-473 failed: Seat-19 is already booked.
+[2026-04-27 12:06:47.165] [pool-1-thread-11] Bot-474 is attempting to book Seat-8
+[2026-04-27 12:06:47.167] [pool-1-thread-11] Bot-474 failed: Seat-8 is already booked.
+[2026-04-27 12:06:48.191] [pool-1-thread-13] Bot-475 is attempting to book Seat-3
+[2026-04-27 12:06:48.192] [pool-1-thread-13] Bot-475 failed: Seat-3 is already booked.
+[2026-04-27 12:06:49.845] [pool-1-thread-15] Bot-476 is attempting to book Seat-14
+[2026-04-27 12:06:49.847] [pool-1-thread-15] Bot-476 failed: Seat-14 is already booked.
+[2026-04-27 12:06:54.609] [pool-1-thread-14] Bot-477 is attempting to book Seat-17
+[2026-04-27 12:06:54.610] [pool-1-thread-14] Bot-477 failed: Seat-17 is already booked.
+[2026-04-27 12:06:55.889] [pool-1-thread-1] Bot-478 is attempting to book Seat-4
+[2026-04-27 12:06:55.890] [pool-1-thread-1] Bot-478 failed: Seat-4 is already booked.
+[2026-04-27 12:07:00.565] [pool-1-thread-2] Bot-479 is attempting to book Seat-8
+[2026-04-27 12:07:00.566] [pool-1-thread-2] Bot-479 failed: Seat-8 is already booked.
+[2026-04-27 12:07:03.345] [pool-1-thread-3] Bot-480 is attempting to book Seat-13
+[2026-04-27 12:07:03.345] [pool-1-thread-3] Bot-480 failed: Seat-13 is already booked.
+[2026-04-27 12:07:06.762] [pool-1-thread-5] Bot-481 is attempting to book Seat-5
+[2026-04-27 12:07:06.764] [pool-1-thread-5] Bot-481 failed: Seat-5 is already booked.
+[2026-04-27 12:07:10.198] [pool-1-thread-6] Bot-482 is attempting to book Seat-4
+[2026-04-27 12:07:10.199] [pool-1-thread-6] Bot-482 failed: Seat-4 is already booked.
+[2026-04-27 12:07:13.702] [pool-1-thread-4] Bot-483 is attempting to book Seat-19
+[2026-04-27 12:07:13.703] [pool-1-thread-4] Bot-483 failed: Seat-19 is already booked.
+[2026-04-27 12:07:14.874] [pool-1-thread-7] Bot-484 is attempting to book Seat-4
+[2026-04-27 12:07:14.895] [pool-1-thread-7] Bot-484 failed: Seat-4 is already booked.
+[2026-04-27 12:07:19.857] [pool-1-thread-8] Bot-485 is attempting to book Seat-5
+[2026-04-27 12:07:19.859] [pool-1-thread-8] Bot-485 failed: Seat-5 is already booked.
+[2026-04-27 12:07:22.617] [pool-1-thread-9] Bot-486 is attempting to book Seat-11
+[2026-04-27 12:07:22.617] [pool-1-thread-9] Bot-486 failed: Seat-11 is already booked.
+[2026-04-27 12:07:25.593] [pool-1-thread-12] Bot-487 is attempting to book Seat-9
+[2026-04-27 12:07:25.594] [pool-1-thread-12] Bot-487 failed: Seat-9 is already booked.
+[2026-04-27 12:07:30.078] [pool-1-thread-10] Bot-488 is attempting to book Seat-12
+[2026-04-27 12:07:30.079] [pool-1-thread-10] Bot-488 failed: Seat-12 is already booked.
+[2026-04-27 12:07:31.101] [pool-1-thread-11] Bot-489 is attempting to book Seat-19
+[2026-04-27 12:07:31.102] [pool-1-thread-11] Bot-489 failed: Seat-19 is already booked.
+[2026-04-27 12:07:34.629] [pool-1-thread-13] Bot-490 is attempting to book Seat-19
+[2026-04-27 12:07:34.629] [pool-1-thread-13] Bot-490 failed: Seat-19 is already booked.
+[2026-04-27 12:07:39.523] [pool-1-thread-15] Bot-491 is attempting to book Seat-8
+[2026-04-27 12:07:39.523] [pool-1-thread-15] Bot-491 failed: Seat-8 is already booked.
+[2026-04-27 12:07:44.220] [pool-1-thread-14] Bot-492 is attempting to book Seat-13
+[2026-04-27 12:07:44.221] [pool-1-thread-14] Bot-492 failed: Seat-13 is already booked.
+[2026-04-27 12:07:47.295] [pool-1-thread-1] Bot-493 is attempting to book Seat-11
+[2026-04-27 12:07:47.296] [pool-1-thread-1] Bot-493 failed: Seat-11 is already booked.
+[2026-04-27 12:07:51.291] [pool-1-thread-2] Bot-494 is attempting to book Seat-7
+[2026-04-27 12:07:51.292] [pool-1-thread-2] Bot-494 failed: Seat-7 is already booked.
+[2026-04-27 12:07:55.806] [pool-1-thread-3] Bot-495 is attempting to book Seat-1
+[2026-04-27 12:07:55.807] [pool-1-thread-3] Bot-495 failed: Seat-1 is already booked.
+[2026-04-27 12:07:58.945] [pool-1-thread-5] Bot-496 is attempting to book Seat-14
+[2026-04-27 12:07:58.946] [pool-1-thread-5] Bot-496 failed: Seat-14 is already booked.
+[2026-04-27 12:08:01.126] [pool-1-thread-6] Bot-497 is attempting to book Seat-8
+[2026-04-27 12:08:01.126] [pool-1-thread-6] Bot-497 failed: Seat-8 is already booked.
+[2026-04-27 12:08:02.902] [pool-1-thread-4] Bot-498 is attempting to book Seat-17
+[2026-04-27 12:08:02.902] [pool-1-thread-4] Bot-498 failed: Seat-17 is already booked.
+[2026-04-27 12:08:06.005] [pool-1-thread-7] Bot-499 is attempting to book Seat-18
+[2026-04-27 12:08:06.005] [pool-1-thread-7] Bot-499 failed: Seat-18 is already booked.
+[2026-04-27 12:08:09.986] [pool-1-thread-8] Bot-500 is attempting to book Seat-2
+[2026-04-27 12:08:09.988] [pool-1-thread-8] Bot-500 failed: Seat-2 is already booked.
+[2026-04-27 12:08:12.783] [pool-1-thread-9] Bot-501 is attempting to book Seat-7
+[2026-04-27 12:08:12.784] [pool-1-thread-9] Bot-501 failed: Seat-7 is already booked.
+[2026-04-27 12:08:16.641] [pool-1-thread-12] Bot-502 is attempting to book Seat-6
+[2026-04-27 12:08:16.642] [pool-1-thread-12] Bot-502 failed: Seat-6 is already booked.
+[2026-04-27 12:08:20.164] [pool-1-thread-10] Bot-503 is attempting to book Seat-1
+[2026-04-27 12:08:20.164] [pool-1-thread-10] Bot-503 failed: Seat-1 is already booked.
+[2026-04-27 12:08:22.638] [pool-1-thread-11] Bot-504 is attempting to book Seat-19
+[2026-04-27 12:08:22.639] [pool-1-thread-11] Bot-504 failed: Seat-19 is already booked.
+[2026-04-27 12:08:27.334] [pool-1-thread-13] Bot-505 is attempting to book Seat-10
+[2026-04-27 12:08:27.335] [pool-1-thread-13] Bot-505 failed: Seat-10 is already booked.
+[2026-04-27 12:08:28.986] [pool-1-thread-15] Bot-506 is attempting to book Seat-8
+[2026-04-27 12:08:28.987] [pool-1-thread-15] Bot-506 failed: Seat-8 is already booked.
+[2026-04-27 12:08:32.825] [pool-1-thread-14] Bot-507 is attempting to book Seat-5
+[2026-04-27 12:08:32.826] [pool-1-thread-14] Bot-507 failed: Seat-5 is already booked.
+[2026-04-27 12:08:35.860] [pool-1-thread-1] Bot-508 is attempting to book Seat-3
+[2026-04-27 12:08:35.861] [pool-1-thread-1] Bot-508 failed: Seat-3 is already booked.
+[2026-04-27 12:08:40.847] [pool-1-thread-2] Bot-509 is attempting to book Seat-8
+[2026-04-27 12:08:40.848] [pool-1-thread-2] Bot-509 failed: Seat-8 is already booked.
+[2026-04-27 12:08:42.775] [pool-1-thread-3] Bot-510 is attempting to book Seat-10
+[2026-04-27 12:08:42.775] [pool-1-thread-3] Bot-510 failed: Seat-10 is already booked.
+[2026-04-27 12:08:45.327] [pool-1-thread-5] Bot-511 is attempting to book Seat-16
+[2026-04-27 12:08:45.328] [pool-1-thread-5] Bot-511 failed: Seat-16 is already booked.
+[2026-04-27 12:08:48.752] [pool-1-thread-6] Bot-512 is attempting to book Seat-14
+[2026-04-27 12:08:48.753] [pool-1-thread-6] Bot-512 failed: Seat-14 is already booked.
+[2026-04-27 12:08:53.026] [pool-1-thread-4] Bot-513 is attempting to book Seat-14
+[2026-04-27 12:08:53.026] [pool-1-thread-4] Bot-513 failed: Seat-14 is already booked.
+[2026-04-27 12:08:54.389] [pool-1-thread-7] Bot-514 is attempting to book Seat-7
+[2026-04-27 12:08:54.389] [pool-1-thread-7] Bot-514 failed: Seat-7 is already booked.
+[2026-04-27 12:08:57.588] [pool-1-thread-8] Bot-515 is attempting to book Seat-16
+[2026-04-27 12:08:57.590] [pool-1-thread-8] Bot-515 failed: Seat-16 is already booked.
+[2026-04-27 12:09:00.422] [pool-1-thread-9] Bot-516 is attempting to book Seat-5
+[2026-04-27 12:09:00.424] [pool-1-thread-9] Bot-516 failed: Seat-5 is already booked.
+[2026-04-27 12:09:02.591] [pool-1-thread-12] Bot-517 is attempting to book Seat-6
+[2026-04-27 12:09:02.592] [pool-1-thread-12] Bot-517 failed: Seat-6 is already booked.
+[2026-04-27 12:09:06.263] [pool-1-thread-10] Bot-518 is attempting to book Seat-16
+[2026-04-27 12:09:06.264] [pool-1-thread-10] Bot-518 failed: Seat-16 is already booked.
+[2026-04-27 12:09:09.740] [pool-1-thread-11] Bot-519 is attempting to book Seat-6
+[2026-04-27 12:09:09.742] [pool-1-thread-11] Bot-519 failed: Seat-6 is already booked.
+[2026-04-27 12:09:11.149] [pool-1-thread-13] Bot-520 is attempting to book Seat-20
+[2026-04-27 12:09:11.150] [pool-1-thread-13] Bot-520 failed: Seat-20 is already booked.
+[2026-04-27 12:09:13.243] [pool-1-thread-15] Bot-521 is attempting to book Seat-10
+[2026-04-27 12:09:13.243] [pool-1-thread-15] Bot-521 failed: Seat-10 is already booked.
+[2026-04-27 12:09:16.997] [pool-1-thread-14] Bot-522 is attempting to book Seat-13
+[2026-04-27 12:09:16.998] [pool-1-thread-14] Bot-522 failed: Seat-13 is already booked.
+[2026-04-27 12:09:19.668] [pool-1-thread-1] Bot-523 is attempting to book Seat-12
+[2026-04-27 12:09:19.669] [pool-1-thread-1] Bot-523 failed: Seat-12 is already booked.
+[2026-04-27 12:09:21.395] [pool-1-thread-2] Bot-524 is attempting to book Seat-4
+[2026-04-27 12:09:21.396] [pool-1-thread-2] Bot-524 failed: Seat-4 is already booked.
+[2026-04-27 12:09:22.631] [pool-1-thread-3] Bot-525 is attempting to book Seat-19
+[2026-04-27 12:09:22.632] [pool-1-thread-3] Bot-525 failed: Seat-19 is already booked.
+[2026-04-27 12:09:26.273] [pool-1-thread-5] Bot-526 is attempting to book Seat-12
+[2026-04-27 12:09:26.273] [pool-1-thread-5] Bot-526 failed: Seat-12 is already booked.
+[2026-04-27 12:09:28.404] [pool-1-thread-6] Bot-527 is attempting to book Seat-11
+[2026-04-27 12:09:28.405] [pool-1-thread-6] Bot-527 failed: Seat-11 is already booked.
+[2026-04-27 12:09:32.169] [pool-1-thread-4] Bot-528 is attempting to book Seat-7
+[2026-04-27 12:09:32.170] [pool-1-thread-4] Bot-528 failed: Seat-7 is already booked.
+[2026-04-27 12:09:35.104] [pool-1-thread-7] Bot-529 is attempting to book Seat-18
+[2026-04-27 12:09:35.105] [pool-1-thread-7] Bot-529 failed: Seat-18 is already booked.
+[2026-04-27 12:09:37.771] [pool-1-thread-8] Bot-530 is attempting to book Seat-11
+[2026-04-27 12:09:37.905] [pool-1-thread-8] Bot-530 failed: Seat-11 is already booked.
+[2026-04-27 12:09:41.323] [pool-1-thread-9] Bot-531 is attempting to book Seat-15
+[2026-04-27 12:09:41.324] [pool-1-thread-9] Bot-531 failed: Seat-15 is already booked.
+[2026-04-27 12:09:43.817] [pool-1-thread-12] Bot-532 is attempting to book Seat-5
+[2026-04-27 12:09:43.818] [pool-1-thread-12] Bot-532 failed: Seat-5 is already booked.
+[2026-04-27 12:09:47.323] [pool-1-thread-10] Bot-533 is attempting to book Seat-17
+[2026-04-27 12:09:47.324] [pool-1-thread-10] Bot-533 failed: Seat-17 is already booked.
+[2026-04-27 12:09:49.206] [pool-1-thread-11] Bot-534 is attempting to book Seat-11
+[2026-04-27 12:09:49.208] [pool-1-thread-11] Bot-534 failed: Seat-11 is already booked.
+[2026-04-27 12:09:51.887] [pool-1-thread-13] Bot-535 is attempting to book Seat-12
+[2026-04-27 12:09:51.888] [pool-1-thread-13] Bot-535 failed: Seat-12 is already booked.
+[2026-04-27 12:09:53.830] [pool-1-thread-15] Bot-536 is attempting to book Seat-17
+[2026-04-27 12:09:53.831] [pool-1-thread-15] Bot-536 failed: Seat-17 is already booked.
+[2026-04-27 12:09:55.529] [pool-1-thread-14] Bot-537 is attempting to book Seat-10
+[2026-04-27 12:09:55.530] [pool-1-thread-14] Bot-537 failed: Seat-10 is already booked.
+[2026-04-27 12:09:56.660] [pool-1-thread-1] Bot-538 is attempting to book Seat-3
+[2026-04-27 12:09:56.661] [pool-1-thread-1] Bot-538 failed: Seat-3 is already booked.
+[2026-04-27 12:10:01.533] [pool-1-thread-2] Bot-539 is attempting to book Seat-17
+[2026-04-27 12:10:01.533] [pool-1-thread-2] Bot-539 failed: Seat-17 is already booked.
+[2026-04-27 12:10:02.783] [pool-1-thread-3] Bot-540 is attempting to book Seat-19
+[2026-04-27 12:10:02.784] [pool-1-thread-3] Bot-540 failed: Seat-19 is already booked.
+[2026-04-27 12:10:07.171] [pool-1-thread-5] Bot-541 is attempting to book Seat-16
+[2026-04-27 12:10:07.174] [pool-1-thread-5] Bot-541 failed: Seat-16 is already booked.
+[2026-04-27 12:10:08.210] [pool-1-thread-6] Bot-542 is attempting to book Seat-5
+[2026-04-27 12:10:08.212] [pool-1-thread-6] Bot-542 failed: Seat-5 is already booked.
+[2026-04-27 12:10:11.550] [pool-1-thread-4] Bot-543 is attempting to book Seat-1
+[2026-04-27 12:10:11.551] [pool-1-thread-4] Bot-543 failed: Seat-1 is already booked.
+[2026-04-27 12:10:15.115] [pool-1-thread-7] Bot-544 is attempting to book Seat-11
+[2026-04-27 12:10:15.117] [pool-1-thread-7] Bot-544 failed: Seat-11 is already booked.
+[2026-04-27 12:10:16.203] [pool-1-thread-8] Bot-545 is attempting to book Seat-14
+[2026-04-27 12:10:16.203] [pool-1-thread-8] Bot-545 failed: Seat-14 is already booked.
+[2026-04-27 12:10:18.074] [pool-1-thread-9] Bot-546 is attempting to book Seat-8
+[2026-04-27 12:10:18.075] [pool-1-thread-9] Bot-546 failed: Seat-8 is already booked.
+[2026-04-27 12:10:19.903] [pool-1-thread-12] Bot-547 is attempting to book Seat-10
+[2026-04-27 12:10:19.904] [pool-1-thread-12] Bot-547 failed: Seat-10 is already booked.
+[2026-04-27 12:10:23.255] [pool-1-thread-10] Bot-548 is attempting to book Seat-11
+[2026-04-27 12:10:23.257] [pool-1-thread-10] Bot-548 failed: Seat-11 is already booked.
+[2026-04-27 12:10:27.287] [pool-1-thread-11] Bot-549 is attempting to book Seat-7
+[2026-04-27 12:10:27.288] [pool-1-thread-11] Bot-549 failed: Seat-7 is already booked.
+[2026-04-27 12:10:28.818] [pool-1-thread-13] Bot-550 is attempting to book Seat-4
+[2026-04-27 12:10:28.818] [pool-1-thread-13] Bot-550 failed: Seat-4 is already booked.
+[2026-04-27 12:10:32.724] [pool-1-thread-15] Bot-551 is attempting to book Seat-8
+[2026-04-27 12:10:32.725] [pool-1-thread-15] Bot-551 failed: Seat-8 is already booked.
+[2026-04-27 12:10:37.323] [pool-1-thread-14] Bot-552 is attempting to book Seat-20
+[2026-04-27 12:10:37.325] [pool-1-thread-14] Bot-552 failed: Seat-20 is already booked.
+[2026-04-27 12:10:41.595] [pool-1-thread-1] Bot-553 is attempting to book Seat-19
+[2026-04-27 12:10:41.595] [pool-1-thread-1] Bot-553 failed: Seat-19 is already booked.
+[2026-04-27 12:10:45.078] [pool-1-thread-2] Bot-554 is attempting to book Seat-16
+[2026-04-27 12:10:45.078] [pool-1-thread-2] Bot-554 failed: Seat-16 is already booked.
+[2026-04-27 12:10:47.887] [pool-1-thread-3] Bot-555 is attempting to book Seat-2
+[2026-04-27 12:10:47.888] [pool-1-thread-3] Bot-555 failed: Seat-2 is already booked.
+[2026-04-27 12:10:51.576] [pool-1-thread-5] Bot-556 is attempting to book Seat-13
+[2026-04-27 12:10:51.576] [pool-1-thread-5] Bot-556 failed: Seat-13 is already booked.
+[2026-04-27 12:10:52.779] [pool-1-thread-6] Bot-557 is attempting to book Seat-15
+[2026-04-27 12:10:52.780] [pool-1-thread-6] Bot-557 failed: Seat-15 is already booked.
+[2026-04-27 12:10:57.198] [pool-1-thread-4] Bot-558 is attempting to book Seat-3
+[2026-04-27 12:10:57.199] [pool-1-thread-4] Bot-558 failed: Seat-3 is already booked.
+[2026-04-27 12:10:58.333] [pool-1-thread-7] Bot-559 is attempting to book Seat-20
+[2026-04-27 12:10:58.333] [pool-1-thread-7] Bot-559 failed: Seat-20 is already booked.
+[2026-04-27 12:11:02.677] [pool-1-thread-8] Bot-560 is attempting to book Seat-2
+[2026-04-27 12:11:02.677] [pool-1-thread-8] Bot-560 failed: Seat-2 is already booked.
+[2026-04-27 12:11:05.987] [pool-1-thread-9] Bot-561 is attempting to book Seat-16
+[2026-04-27 12:11:05.988] [pool-1-thread-9] Bot-561 failed: Seat-16 is already booked.
+[2026-04-27 12:11:10.755] [pool-1-thread-12] Bot-562 is attempting to book Seat-1
+[2026-04-27 12:11:10.756] [pool-1-thread-12] Bot-562 failed: Seat-1 is already booked.
+[2026-04-27 12:11:14.167] [main] === Advanced Bus Ticket Booking System Started ===
+[2026-04-27 12:11:14.203] [main] Failed to start WebServer: Address already in use: bind
+[2026-04-27 12:11:14.782] [pool-1-thread-10] Bot-563 is attempting to book Seat-13
+[2026-04-27 12:11:14.784] [pool-1-thread-10] Bot-563 failed: Seat-13 is already booked.
+[2026-04-27 12:11:16.896] [pool-1-thread-11] Bot-564 is attempting to book Seat-8
+[2026-04-27 12:11:16.897] [pool-1-thread-11] Bot-564 failed: Seat-8 is already booked.
+[2026-04-27 12:11:20.602] [pool-1-thread-13] Bot-565 is attempting to book Seat-11
+[2026-04-27 12:11:20.603] [pool-1-thread-13] Bot-565 failed: Seat-11 is already booked.
+[2026-04-27 12:11:21.606] [pool-1-thread-15] Bot-566 is attempting to book Seat-6
+[2026-04-27 12:11:21.607] [pool-1-thread-15] Bot-566 failed: Seat-6 is already booked.
+[2026-04-27 12:11:25.248] [pool-1-thread-14] Bot-567 is attempting to book Seat-17
+[2026-04-27 12:11:25.249] [pool-1-thread-14] Bot-567 failed: Seat-17 is already booked.
+[2026-04-27 12:11:27.508] [pool-1-thread-1] Bot-568 is attempting to book Seat-15
+[2026-04-27 12:11:27.508] [pool-1-thread-1] Bot-568 failed: Seat-15 is already booked.
+[2026-04-27 12:11:28.649] [pool-1-thread-2] Bot-569 is attempting to book Seat-17
+[2026-04-27 12:11:28.650] [pool-1-thread-2] Bot-569 failed: Seat-17 is already booked.
+[2026-04-27 12:11:33.235] [pool-1-thread-3] Bot-570 is attempting to book Seat-5
+[2026-04-27 12:11:33.235] [pool-1-thread-3] Bot-570 failed: Seat-5 is already booked.
+[2026-04-27 12:11:35.078] [pool-1-thread-5] Bot-571 is attempting to book Seat-8
+[2026-04-27 12:11:35.079] [pool-1-thread-5] Bot-571 failed: Seat-8 is already booked.
+[2026-04-27 12:11:36.777] [pool-1-thread-6] Bot-572 is attempting to book Seat-19
+[2026-04-27 12:11:36.778] [pool-1-thread-6] Bot-572 failed: Seat-19 is already booked.
+[2026-04-27 12:11:38.429] [pool-1-thread-4] Bot-573 is attempting to book Seat-4
+[2026-04-27 12:11:38.429] [pool-1-thread-4] Bot-573 failed: Seat-4 is already booked.
+[2026-04-27 12:11:39.507] [pool-1-thread-7] Bot-574 is attempting to book Seat-1
+[2026-04-27 12:11:39.508] [pool-1-thread-7] Bot-574 failed: Seat-1 is already booked.
+[2026-04-27 12:11:42.384] [pool-1-thread-8] Bot-575 is attempting to book Seat-2
+[2026-04-27 12:11:42.384] [pool-1-thread-8] Bot-575 failed: Seat-2 is already booked.
+[2026-04-27 12:11:47.194] [pool-1-thread-9] Bot-576 is attempting to book Seat-12
+[2026-04-27 12:11:47.196] [pool-1-thread-9] Bot-576 failed: Seat-12 is already booked.
+[2026-04-27 12:11:49.147] [pool-1-thread-12] Bot-577 is attempting to book Seat-7
+[2026-04-27 12:11:49.148] [pool-1-thread-12] Bot-577 failed: Seat-7 is already booked.
+[2026-04-27 12:11:50.847] [pool-1-thread-10] Bot-578 is attempting to book Seat-8
+[2026-04-27 12:11:50.848] [pool-1-thread-10] Bot-578 failed: Seat-8 is already booked.
+[2026-04-27 12:11:54.628] [pool-1-thread-11] Bot-579 is attempting to book Seat-19
+[2026-04-27 12:11:54.629] [pool-1-thread-11] Bot-579 failed: Seat-19 is already booked.
+[2026-04-27 12:11:57.097] [pool-1-thread-13] Bot-580 is attempting to book Seat-8
+[2026-04-27 12:11:57.098] [pool-1-thread-13] Bot-580 failed: Seat-8 is already booked.
+[2026-04-27 12:11:59.934] [pool-1-thread-15] Bot-581 is attempting to book Seat-15
+[2026-04-27 12:11:59.935] [pool-1-thread-15] Bot-581 failed: Seat-15 is already booked.
+[2026-04-27 12:12:04.636] [pool-1-thread-14] Bot-582 is attempting to book Seat-16
+[2026-04-27 12:12:04.638] [pool-1-thread-14] Bot-582 failed: Seat-16 is already booked.
+[2026-04-27 12:12:06.366] [pool-1-thread-1] Bot-583 is attempting to book Seat-12
+[2026-04-27 12:12:06.366] [pool-1-thread-1] Bot-583 failed: Seat-12 is already booked.
+[2026-04-27 12:12:09.865] [pool-1-thread-2] Bot-584 is attempting to book Seat-17
+[2026-04-27 12:12:09.866] [pool-1-thread-2] Bot-584 failed: Seat-17 is already booked.
+[2026-04-27 12:12:11.522] [pool-1-thread-3] Bot-585 is attempting to book Seat-6
+[2026-04-27 12:12:11.522] [pool-1-thread-3] Bot-585 failed: Seat-6 is already booked.
+[2026-04-27 12:12:15.479] [pool-1-thread-5] Bot-586 is attempting to book Seat-7
+[2026-04-27 12:12:15.480] [pool-1-thread-5] Bot-586 failed: Seat-7 is already booked.
+[2026-04-27 12:12:19.813] [pool-1-thread-6] Bot-587 is attempting to book Seat-18
+[2026-04-27 12:12:19.814] [pool-1-thread-6] Bot-587 failed: Seat-18 is already booked.
+[2026-04-27 12:12:24.050] [pool-1-thread-4] Bot-588 is attempting to book Seat-13
+[2026-04-27 12:12:24.050] [pool-1-thread-4] Bot-588 failed: Seat-13 is already booked.
+[2026-04-27 12:12:26.637] [pool-1-thread-7] Bot-589 is attempting to book Seat-9
+[2026-04-27 12:12:26.638] [pool-1-thread-7] Bot-589 failed: Seat-9 is already booked.
+[2026-04-27 12:12:30.090] [pool-1-thread-8] Bot-590 is attempting to book Seat-6
+[2026-04-27 12:12:30.091] [pool-1-thread-8] Bot-590 failed: Seat-6 is already booked.
+[2026-04-27 12:12:33.324] [pool-1-thread-9] Bot-591 is attempting to book Seat-13
+[2026-04-27 12:12:33.324] [pool-1-thread-9] Bot-591 failed: Seat-13 is already booked.
+[2026-04-27 12:12:35.555] [pool-1-thread-12] Bot-592 is attempting to book Seat-17
+[2026-04-27 12:12:35.556] [pool-1-thread-12] Bot-592 failed: Seat-17 is already booked.
+[2026-04-27 12:12:38.939] [pool-1-thread-10] Bot-593 is attempting to book Seat-7
+[2026-04-27 12:12:38.940] [pool-1-thread-10] Bot-593 failed: Seat-7 is already booked.
+[2026-04-27 12:12:40.365] [pool-1-thread-11] Bot-594 is attempting to book Seat-3
+[2026-04-27 12:12:40.366] [pool-1-thread-11] Bot-594 failed: Seat-3 is already booked.
+[2026-04-27 12:12:44.916] [pool-1-thread-13] Bot-595 is attempting to book Seat-19
+[2026-04-27 12:12:44.916] [pool-1-thread-13] Bot-595 failed: Seat-19 is already booked.
+[2026-04-27 12:12:46.313] [pool-1-thread-15] Bot-596 is attempting to book Seat-8
+[2026-04-27 12:12:46.314] [pool-1-thread-15] Bot-596 failed: Seat-8 is already booked.
+[2026-04-27 12:12:47.615] [pool-1-thread-14] Bot-597 is attempting to book Seat-16
+[2026-04-27 12:12:47.616] [pool-1-thread-14] Bot-597 failed: Seat-16 is already booked.
+[2026-04-27 12:12:49.753] [pool-1-thread-1] Bot-598 is attempting to book Seat-2
+[2026-04-27 12:12:49.754] [pool-1-thread-1] Bot-598 failed: Seat-2 is already booked.
+[2026-04-27 12:12:52.884] [pool-1-thread-2] Bot-599 is attempting to book Seat-7
+[2026-04-27 12:12:52.885] [pool-1-thread-2] Bot-599 failed: Seat-7 is already booked.
+[2026-04-27 12:12:54.199] [pool-1-thread-3] Bot-600 is attempting to book Seat-17
+[2026-04-27 12:12:54.199] [pool-1-thread-3] Bot-600 failed: Seat-17 is already booked.
+[2026-04-27 12:12:57.923] [pool-1-thread-5] Bot-601 is attempting to book Seat-18
+[2026-04-27 12:12:57.924] [pool-1-thread-5] Bot-601 failed: Seat-18 is already booked.
+[2026-04-27 12:13:00.489] [pool-1-thread-6] Bot-602 is attempting to book Seat-12
+[2026-04-27 12:13:00.490] [pool-1-thread-6] Bot-602 failed: Seat-12 is already booked.
+[2026-04-27 12:13:04.015] [pool-1-thread-4] Bot-603 is attempting to book Seat-13
+[2026-04-27 12:13:04.016] [pool-1-thread-4] Bot-603 failed: Seat-13 is already booked.
+[2026-04-27 12:13:05.058] [pool-1-thread-7] Bot-604 is attempting to book Seat-18
+[2026-04-27 12:13:05.059] [pool-1-thread-7] Bot-604 failed: Seat-18 is already booked.
+[2026-04-27 12:13:09.099] [pool-1-thread-8] Bot-605 is attempting to book Seat-1
+[2026-04-27 12:13:09.100] [pool-1-thread-8] Bot-605 failed: Seat-1 is already booked.
+[2026-04-27 12:13:13.826] [pool-1-thread-9] Bot-606 is attempting to book Seat-17
+[2026-04-27 12:13:13.827] [pool-1-thread-9] Bot-606 failed: Seat-17 is already booked.
+[2026-04-27 12:13:16.314] [pool-1-thread-12] Bot-607 is attempting to book Seat-4
+[2026-04-27 12:13:16.316] [pool-1-thread-12] Bot-607 failed: Seat-4 is already booked.
+[2026-04-27 12:13:18.355] [pool-1-thread-10] Bot-608 is attempting to book Seat-19
+[2026-04-27 12:13:18.357] [pool-1-thread-10] Bot-608 failed: Seat-19 is already booked.
+[2026-04-27 12:13:22.792] [pool-1-thread-11] Bot-609 is attempting to book Seat-15
+[2026-04-27 12:13:22.793] [pool-1-thread-11] Bot-609 failed: Seat-15 is already booked.
+[2026-04-27 12:13:24.993] [pool-1-thread-13] Bot-610 is attempting to book Seat-17
+[2026-04-27 12:13:24.994] [pool-1-thread-13] Bot-610 failed: Seat-17 is already booked.
+[2026-04-27 12:13:27.728] [pool-1-thread-15] Bot-611 is attempting to book Seat-4
+[2026-04-27 12:13:27.728] [pool-1-thread-15] Bot-611 failed: Seat-4 is already booked.
+[2026-04-27 12:13:29.105] [pool-1-thread-14] Bot-612 is attempting to book Seat-2
+[2026-04-27 12:13:29.107] [pool-1-thread-14] Bot-612 failed: Seat-2 is already booked.
+[2026-04-27 12:13:30.528] [pool-1-thread-1] Bot-613 is attempting to book Seat-20
+[2026-04-27 12:13:30.529] [pool-1-thread-1] Bot-613 failed: Seat-20 is already booked.
+[2026-04-27 12:13:32.146] [pool-1-thread-2] Bot-614 is attempting to book Seat-1
+[2026-04-27 12:13:32.147] [pool-1-thread-2] Bot-614 failed: Seat-1 is already booked.
+[2026-04-27 12:13:34.425] [pool-1-thread-3] Bot-615 is attempting to book Seat-2
+[2026-04-27 12:13:34.425] [pool-1-thread-3] Bot-615 failed: Seat-2 is already booked.
+[2026-04-27 12:13:35.645] [pool-1-thread-5] Bot-616 is attempting to book Seat-15
+[2026-04-27 12:13:35.645] [pool-1-thread-5] Bot-616 failed: Seat-15 is already booked.
+[2026-04-27 12:13:37.259] [pool-1-thread-6] Bot-617 is attempting to book Seat-4
+[2026-04-27 12:13:37.259] [pool-1-thread-6] Bot-617 failed: Seat-4 is already booked.
+[2026-04-27 12:13:39.793] [pool-1-thread-4] Bot-618 is attempting to book Seat-1
+[2026-04-27 12:13:39.794] [pool-1-thread-4] Bot-618 failed: Seat-1 is already booked.
+[2026-04-27 12:13:41.161] [pool-1-thread-7] Bot-619 is attempting to book Seat-9
+[2026-04-27 12:13:41.162] [pool-1-thread-7] Bot-619 failed: Seat-9 is already booked.
+[2026-04-27 12:13:45.080] [pool-1-thread-8] Bot-620 is attempting to book Seat-4
+[2026-04-27 12:13:45.082] [pool-1-thread-8] Bot-620 failed: Seat-4 is already booked.
+[2026-04-27 12:13:49.245] [pool-1-thread-9] Bot-621 is attempting to book Seat-8
+[2026-04-27 12:13:49.246] [pool-1-thread-9] Bot-621 failed: Seat-8 is already booked.
+[2026-04-27 12:13:53.263] [pool-1-thread-12] Bot-622 is attempting to book Seat-15
+[2026-04-27 12:13:53.264] [pool-1-thread-12] Bot-622 failed: Seat-15 is already booked.
+[2026-04-27 12:13:55.498] [pool-1-thread-10] Bot-623 is attempting to book Seat-9
+[2026-04-27 12:13:55.500] [pool-1-thread-10] Bot-623 failed: Seat-9 is already booked.
+[2026-04-27 12:13:57.254] [pool-1-thread-11] Bot-624 is attempting to book Seat-6
+[2026-04-27 12:13:57.256] [pool-1-thread-11] Bot-624 failed: Seat-6 is already booked.
+[2026-04-27 12:14:02.151] [pool-1-thread-13] Bot-625 is attempting to book Seat-15
+[2026-04-27 12:14:02.153] [pool-1-thread-13] Bot-625 failed: Seat-15 is already booked.
+[2026-04-27 12:14:03.771] [pool-1-thread-15] Bot-626 is attempting to book Seat-17
+[2026-04-27 12:14:03.772] [pool-1-thread-15] Bot-626 failed: Seat-17 is already booked.
+[2026-04-27 12:14:05.395] [pool-1-thread-14] Bot-627 is attempting to book Seat-6
+[2026-04-27 12:14:05.396] [pool-1-thread-14] Bot-627 failed: Seat-6 is already booked.
+[2026-04-27 12:14:07.607] [pool-1-thread-1] Bot-628 is attempting to book Seat-12
+[2026-04-27 12:14:07.607] [pool-1-thread-1] Bot-628 failed: Seat-12 is already booked.
+[2026-04-27 12:14:12.089] [pool-1-thread-2] Bot-629 is attempting to book Seat-17
+[2026-04-27 12:14:12.091] [pool-1-thread-2] Bot-629 failed: Seat-17 is already booked.
+[2026-04-27 12:14:16.457] [pool-1-thread-3] Bot-630 is attempting to book Seat-19
+[2026-04-27 12:14:16.460] [pool-1-thread-3] Bot-630 failed: Seat-19 is already booked.
+[2026-04-27 12:14:20.096] [pool-1-thread-5] Bot-631 is attempting to book Seat-9
+[2026-04-27 12:14:20.097] [pool-1-thread-5] Bot-631 failed: Seat-9 is already booked.
+[2026-04-27 12:14:22.507] [pool-1-thread-6] Bot-632 is attempting to book Seat-3
+[2026-04-27 12:14:22.508] [pool-1-thread-6] Bot-632 failed: Seat-3 is already booked.
+[2026-04-27 12:14:27.216] [pool-1-thread-4] Bot-633 is attempting to book Seat-16
+[2026-04-27 12:14:27.217] [pool-1-thread-4] Bot-633 failed: Seat-16 is already booked.
+[2026-04-27 12:14:32.072] [pool-1-thread-7] Bot-634 is attempting to book Seat-2
+[2026-04-27 12:14:32.073] [pool-1-thread-7] Bot-634 failed: Seat-2 is already booked.
+[2026-04-27 12:14:36.193] [pool-1-thread-8] Bot-635 is attempting to book Seat-13
+[2026-04-27 12:14:36.194] [pool-1-thread-8] Bot-635 failed: Seat-13 is already booked.
+[2026-04-27 12:14:38.911] [pool-1-thread-9] Bot-636 is attempting to book Seat-9
+[2026-04-27 12:14:38.912] [pool-1-thread-9] Bot-636 failed: Seat-9 is already booked.
+[2026-04-27 12:14:41.712] [pool-1-thread-12] Bot-637 is attempting to book Seat-4
+[2026-04-27 12:14:41.714] [pool-1-thread-12] Bot-637 failed: Seat-4 is already booked.
+[2026-04-27 12:14:44.655] [pool-1-thread-10] Bot-638 is attempting to book Seat-8
+[2026-04-27 12:14:44.657] [pool-1-thread-10] Bot-638 failed: Seat-8 is already booked.
+[2026-04-27 12:14:49.118] [pool-1-thread-11] Bot-639 is attempting to book Seat-15
+[2026-04-27 12:14:49.120] [pool-1-thread-11] Bot-639 failed: Seat-15 is already booked.
+[2026-04-27 12:14:52.178] [pool-1-thread-13] Bot-640 is attempting to book Seat-5
+[2026-04-27 12:14:52.179] [pool-1-thread-13] Bot-640 failed: Seat-5 is already booked.
+[2026-04-27 12:14:54.366] [pool-1-thread-15] Bot-641 is attempting to book Seat-14
+[2026-04-27 12:14:54.367] [pool-1-thread-15] Bot-641 failed: Seat-14 is already booked.
+[2026-04-27 12:14:58.018] [pool-1-thread-14] Bot-642 is attempting to book Seat-12
+[2026-04-27 12:14:58.019] [pool-1-thread-14] Bot-642 failed: Seat-12 is already booked.
+[2026-04-27 12:15:00.316] [pool-1-thread-1] Bot-643 is attempting to book Seat-10
+[2026-04-27 12:15:00.317] [pool-1-thread-1] Bot-643 failed: Seat-10 is already booked.
+[2026-04-27 12:15:02.969] [pool-1-thread-2] Bot-644 is attempting to book Seat-19
+[2026-04-27 12:15:02.970] [pool-1-thread-2] Bot-644 failed: Seat-19 is already booked.
+[2026-04-27 12:15:05.851] [pool-1-thread-3] Bot-645 is attempting to book Seat-12
+[2026-04-27 12:15:05.853] [pool-1-thread-3] Bot-645 failed: Seat-12 is already booked.
+[2026-04-27 12:15:07.054] [pool-1-thread-5] Bot-646 is attempting to book Seat-15
+[2026-04-27 12:15:07.055] [pool-1-thread-5] Bot-646 failed: Seat-15 is already booked.
+[2026-04-27 12:15:11.771] [pool-1-thread-6] Bot-647 is attempting to book Seat-15
+[2026-04-27 12:15:11.773] [pool-1-thread-6] Bot-647 failed: Seat-15 is already booked.
+[2026-04-27 12:15:14.123] [pool-1-thread-4] Bot-648 is attempting to book Seat-4
+[2026-04-27 12:15:14.123] [pool-1-thread-4] Bot-648 failed: Seat-4 is already booked.
+[2026-04-27 12:15:15.742] [pool-1-thread-7] Bot-649 is attempting to book Seat-4
+[2026-04-27 12:15:15.743] [pool-1-thread-7] Bot-649 failed: Seat-4 is already booked.
+[2026-04-27 12:15:18.873] [pool-1-thread-8] Bot-650 is attempting to book Seat-9
+[2026-04-27 12:15:18.874] [pool-1-thread-8] Bot-650 failed: Seat-9 is already booked.
+[2026-04-27 12:15:20.876] [pool-1-thread-9] Bot-651 is attempting to book Seat-15
+[2026-04-27 12:15:20.877] [pool-1-thread-9] Bot-651 failed: Seat-15 is already booked.
+[2026-04-27 12:15:23.061] [pool-1-thread-12] Bot-652 is attempting to book Seat-19
+[2026-04-27 12:15:23.062] [pool-1-thread-12] Bot-652 failed: Seat-19 is already booked.
+[2026-04-27 12:15:26.807] [pool-1-thread-10] Bot-653 is attempting to book Seat-3
+[2026-04-27 12:15:26.809] [pool-1-thread-10] Bot-653 failed: Seat-3 is already booked.
+[2026-04-27 12:15:30.800] [pool-1-thread-11] Bot-654 is attempting to book Seat-1
+[2026-04-27 12:15:30.801] [pool-1-thread-11] Bot-654 failed: Seat-1 is already booked.
+[2026-04-27 12:15:34.826] [pool-1-thread-13] Bot-655 is attempting to book Seat-3
+[2026-04-27 12:15:34.827] [pool-1-thread-13] Bot-655 failed: Seat-3 is already booked.
+[2026-04-27 12:15:37.124] [pool-1-thread-15] Bot-656 is attempting to book Seat-5
+[2026-04-27 12:15:37.125] [pool-1-thread-15] Bot-656 failed: Seat-5 is already booked.
+[2026-04-27 12:15:39.358] [pool-1-thread-14] Bot-657 is attempting to book Seat-7
+[2026-04-27 12:15:39.360] [pool-1-thread-14] Bot-657 failed: Seat-7 is already booked.
+[2026-04-27 12:15:44.010] [pool-1-thread-1] Bot-658 is attempting to book Seat-16
+[2026-04-27 12:15:44.010] [pool-1-thread-1] Bot-658 failed: Seat-16 is already booked.
+[2026-04-27 12:15:45.339] [pool-1-thread-2] Bot-659 is attempting to book Seat-18
+[2026-04-27 12:15:45.340] [pool-1-thread-2] Bot-659 failed: Seat-18 is already booked.
+[2026-04-27 12:15:47.285] [pool-1-thread-3] Bot-660 is attempting to book Seat-13
+[2026-04-27 12:15:47.285] [pool-1-thread-3] Bot-660 failed: Seat-13 is already booked.
+[2026-04-27 12:15:49.167] [pool-1-thread-5] Bot-661 is attempting to book Seat-9
+[2026-04-27 12:15:49.168] [pool-1-thread-5] Bot-661 failed: Seat-9 is already booked.
+[2026-04-27 12:15:50.901] [pool-1-thread-6] Bot-662 is attempting to book Seat-14
+[2026-04-27 12:15:50.903] [pool-1-thread-6] Bot-662 failed: Seat-14 is already booked.
+[2026-04-27 12:16:01.426] [main] === Advanced Bus Ticket Booking System Started ===
+[2026-04-27 12:16:01.637] [main] WebServer started on http://localhost:8080
+[2026-04-27 12:16:01.639] [main] Open http://localhost:8080 in your browser.
+[2026-04-27 12:16:02.947] [pool-7-thread-1] Bot-1 selected Seat-14 on Express-101 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:16:02.953] [pool-7-thread-1] Bot-1 is processing payment for Seat-14...
+[2026-04-27 12:16:03.985] [pool-7-thread-1] Bot-1 confirmed booking for Seat-14 on Express-101 (2026-04-28)
+[2026-04-27 12:16:07.710] [pool-7-thread-2] Bot-2 selected Seat-8 on NightRider-202 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:16:07.712] [pool-7-thread-2] Bot-2 is taking too long to pay for Seat-8...
+[2026-04-27 12:16:12.617] [pool-7-thread-3] Bot-3 selected Seat-9 on Express-101 (2026-04-29). Locked for 10 seconds.
+[2026-04-27 12:16:12.622] [pool-7-thread-3] Bot-3 is processing payment for Seat-9...
+[2026-04-27 12:16:13.631] [pool-7-thread-3] Bot-3 confirmed booking for Seat-9 on Express-101 (2026-04-29)
+[2026-04-27 12:16:16.101] [pool-7-thread-4] Bot-4 selected Seat-5 on Express-101 (2026-04-29). Locked for 10 seconds.
+[2026-04-27 12:16:16.103] [pool-7-thread-4] Bot-4 is processing payment for Seat-5...
+[2026-04-27 12:16:17.402] [pool-7-thread-4] Bot-4 confirmed booking for Seat-5 on Express-101 (2026-04-29)
+[2026-04-27 12:16:17.720] [pool-2-thread-1] Seat-8 released due to timeout. (NightRider-202 / 2026-04-28)
+[2026-04-27 12:16:19.466] [pool-7-thread-5] Bot-5 selected Seat-4 on NightRider-202 (2026-04-30). Locked for 10 seconds.
+[2026-04-27 12:16:19.469] [pool-7-thread-5] Bot-5 is processing payment for Seat-4...
+[2026-04-27 12:16:20.183] [pool-7-thread-5] Bot-5 confirmed booking for Seat-4 on NightRider-202 (2026-04-30)
+[2026-04-27 12:16:21.159] [pool-7-thread-6] saurabh selected Seat-1 on NightRider-202 (2026-04-29). Locked for 10 seconds.
+[2026-04-27 12:16:21.162] [pool-7-thread-6] saurabh is processing payment for Seat-1...
+[2026-04-27 12:16:21.869] [pool-7-thread-6] saurabh confirmed booking for Seat-1 on NightRider-202 (2026-04-29)
+[2026-04-27 12:16:22.265] [pool-7-thread-7] Bot-6 selected Seat-15 on Express-101 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:16:22.267] [pool-7-thread-7] Bot-6 is processing payment for Seat-15...
+[2026-04-27 12:16:23.044] [pool-7-thread-7] Bot-6 confirmed booking for Seat-15 on Express-101 (2026-04-28)
+[2026-04-27 12:16:26.301] [pool-7-thread-8] Bot-7 selected Seat-10 on NightRider-202 (2026-04-29). Locked for 10 seconds.
+[2026-04-27 12:16:26.303] [pool-7-thread-8] Bot-7 is taking too long to pay for Seat-10...
+[2026-04-27 12:16:30.122] [pool-7-thread-9] Bot-8 selected Seat-3 on NightRider-202 (2026-04-30). Locked for 10 seconds.
+[2026-04-27 12:16:30.127] [pool-7-thread-9] Bot-8 is processing payment for Seat-3...
+[2026-04-27 12:16:31.434] [pool-7-thread-9] Bot-8 confirmed booking for Seat-3 on NightRider-202 (2026-04-30)
+[2026-04-27 12:16:32.759] [pool-7-thread-10] Bot-9 selected Seat-6 on Express-101 (2026-04-30). Locked for 10 seconds.
+[2026-04-27 12:16:32.762] [pool-7-thread-10] Bot-9 is processing payment for Seat-6...
+[2026-04-27 12:16:34.146] [pool-7-thread-10] Bot-9 confirmed booking for Seat-6 on Express-101 (2026-04-30)
+[2026-04-27 12:16:35.251] [pool-7-thread-11] Bot-10 selected Seat-10 on Express-101 (2026-04-29). Locked for 10 seconds.
+[2026-04-27 12:16:35.254] [pool-7-thread-11] Bot-10 is processing payment for Seat-10...
+[2026-04-27 12:16:36.307] [pool-4-thread-1] Seat-10 released due to timeout. (NightRider-202 / 2026-04-29)
+[2026-04-27 12:16:36.666] [pool-7-thread-11] Bot-10 confirmed booking for Seat-10 on Express-101 (2026-04-29)
+[2026-04-27 12:16:38.116] [pool-7-thread-12] Bot-11 selected Seat-10 on Express-101 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:16:38.119] [pool-7-thread-12] Bot-11 is processing payment for Seat-10...
+[2026-04-27 12:16:38.656] [pool-7-thread-12] Bot-11 confirmed booking for Seat-10 on Express-101 (2026-04-28)
+[2026-04-27 12:16:40.928] [pool-8-thread-1] Resetting all seats for NightRider-202 on 2026-04-29
+[2026-04-27 12:16:41.347] [pool-7-thread-13] Bot-12 selected Seat-9 on NightRider-202 (2026-04-29). Locked for 10 seconds.
+[2026-04-27 12:16:41.349] [pool-7-thread-13] Bot-12 is taking too long to pay for Seat-9...
+[2026-04-27 12:16:43.402] [pool-7-thread-14] Bot-13 selected Seat-5 on Express-101 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:16:43.406] [pool-7-thread-14] Bot-13 is processing payment for Seat-5...
+[2026-04-27 12:16:44.478] [pool-7-thread-14] Bot-13 confirmed booking for Seat-5 on Express-101 (2026-04-28)
+[2026-04-27 12:16:47.212] [pool-7-thread-15] Bot-14 selected Seat-2 on Express-101 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:16:47.213] [pool-7-thread-15] Bot-14 is processing payment for Seat-2...
+[2026-04-27 12:16:48.017] [pool-7-thread-15] Bot-14 confirmed booking for Seat-2 on Express-101 (2026-04-28)
+[2026-04-27 12:16:51.365] [pool-4-thread-1] Seat-9 released due to timeout. (NightRider-202 / 2026-04-29)
+[2026-04-27 12:16:51.557] [pool-7-thread-1] Bot-15 selected Seat-14 on NightRider-202 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:16:51.560] [pool-7-thread-1] Bot-15 is processing payment for Seat-14...
+[2026-04-27 12:16:52.275] [pool-7-thread-1] Bot-15 confirmed booking for Seat-14 on NightRider-202 (2026-04-28)
+[2026-04-27 12:16:54.667] [pool-7-thread-3] Bot-16 selected Seat-13 on NightRider-202 (2026-04-30). Locked for 10 seconds.
+[2026-04-27 12:16:54.671] [pool-7-thread-3] Bot-16 is taking too long to pay for Seat-13...
+[2026-04-27 12:16:58.526] [pool-7-thread-4] Bot-17 selected Seat-7 on Express-101 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:16:58.529] [pool-7-thread-4] Bot-17 is processing payment for Seat-7...
+[2026-04-27 12:16:59.197] [pool-7-thread-4] Bot-17 confirmed booking for Seat-7 on Express-101 (2026-04-28)
+[2026-04-27 12:17:03.330] [pool-7-thread-5] Bot-18 selected Seat-6 on NightRider-202 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:17:03.332] [pool-7-thread-5] Bot-18 is processing payment for Seat-6...
+[2026-04-27 12:17:04.674] [pool-6-thread-1] Seat-13 released due to timeout. (NightRider-202 / 2026-04-30)
+[2026-04-27 12:17:04.843] [pool-7-thread-5] Bot-18 confirmed booking for Seat-6 on NightRider-202 (2026-04-28)
+[2026-04-27 12:17:05.703] [pool-7-thread-6] Bot-19 selected Seat-12 on NightRider-202 (2026-04-29). Locked for 10 seconds.
+[2026-04-27 12:17:05.705] [pool-7-thread-6] Bot-19 is processing payment for Seat-12...
+[2026-04-27 12:17:06.403] [pool-7-thread-6] Bot-19 confirmed booking for Seat-12 on NightRider-202 (2026-04-29)
+[2026-04-27 12:17:14.443] [pool-7-thread-7] Bot-21 selected Seat-4 on Express-101 (2026-04-29). Locked for 10 seconds.
+[2026-04-27 12:17:14.445] [pool-7-thread-7] Bot-21 is processing payment for Seat-4...
+[2026-04-27 12:17:15.749] [pool-7-thread-7] Bot-21 confirmed booking for Seat-4 on Express-101 (2026-04-29)
+[2026-04-27 12:17:23.785] [pool-7-thread-10] Bot-23 selected Seat-5 on NightRider-202 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:17:23.788] [pool-7-thread-10] Bot-23 is processing payment for Seat-5...
+[2026-04-27 12:17:24.330] [pool-7-thread-10] Bot-23 confirmed booking for Seat-5 on NightRider-202 (2026-04-28)
+[2026-04-27 12:17:36.354] [pool-7-thread-14] Bot-27 selected Seat-11 on NightRider-202 (2026-04-30). Locked for 10 seconds.
+[2026-04-27 12:17:36.356] [pool-7-thread-14] Bot-27 is taking too long to pay for Seat-11...
+[2026-04-27 12:17:41.577] [pool-7-thread-1] Bot-29 selected Seat-10 on NightRider-202 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:17:41.580] [pool-7-thread-1] Bot-29 is processing payment for Seat-10...
+[2026-04-27 12:17:42.870] [pool-7-thread-1] Bot-29 confirmed booking for Seat-10 on NightRider-202 (2026-04-28)
+[2026-04-27 12:17:45.379] [pool-7-thread-13] Bot-30 selected Seat-15 on Express-101 (2026-04-29). Locked for 10 seconds.
+[2026-04-27 12:17:45.382] [pool-7-thread-13] Bot-30 is taking too long to pay for Seat-15...
+[2026-04-27 12:17:46.369] [pool-6-thread-1] Seat-11 released due to timeout. (NightRider-202 / 2026-04-30)
+[2026-04-27 12:17:46.945] [pool-7-thread-4] Bot-31 selected Seat-12 on NightRider-202 (2026-04-30). Locked for 10 seconds.
+[2026-04-27 12:17:46.947] [pool-7-thread-4] Bot-31 is taking too long to pay for Seat-12...
+[2026-04-27 12:17:50.848] [pool-7-thread-5] Bot-32 selected Seat-12 on Express-101 (2026-04-29). Locked for 10 seconds.
+[2026-04-27 12:17:50.851] [pool-7-thread-5] Bot-32 is processing payment for Seat-12...
+[2026-04-27 12:17:51.488] [pool-7-thread-5] Bot-32 confirmed booking for Seat-12 on Express-101 (2026-04-29)
+[2026-04-27 12:17:54.553] [pool-7-thread-6] Bot-33 selected Seat-1 on NightRider-202 (2026-04-29). Locked for 10 seconds.
+[2026-04-27 12:17:54.555] [pool-7-thread-6] Bot-33 is taking too long to pay for Seat-1...
+[2026-04-27 12:17:55.394] [pool-3-thread-1] Seat-15 released due to timeout. (Express-101 / 2026-04-29)
+[2026-04-27 12:17:56.948] [pool-6-thread-1] Seat-12 released due to timeout. (NightRider-202 / 2026-04-30)
+[2026-04-27 12:17:57.601] [pool-7-thread-3] Bot-34 selected Seat-14 on NightRider-202 (2026-04-29). Locked for 10 seconds.
+[2026-04-27 12:17:57.603] [pool-7-thread-3] Bot-34 is processing payment for Seat-14...
+[2026-04-27 12:17:58.208] [pool-7-thread-3] Bot-34 confirmed booking for Seat-14 on NightRider-202 (2026-04-29)
+[2026-04-27 12:18:00.770] [pool-7-thread-2] Bot-35 selected Seat-1 on Express-101 (2026-04-30). Locked for 10 seconds.
+[2026-04-27 12:18:00.772] [pool-7-thread-2] Bot-35 is processing payment for Seat-1...
+[2026-04-27 12:18:01.517] [pool-7-thread-2] Bot-35 confirmed booking for Seat-1 on Express-101 (2026-04-30)
+[2026-04-27 12:18:02.159] [pool-7-thread-7] Bot-36 selected Seat-11 on Express-101 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:18:02.161] [pool-7-thread-7] Bot-36 is processing payment for Seat-11...
+[2026-04-27 12:18:03.459] [pool-7-thread-7] Bot-36 confirmed booking for Seat-11 on Express-101 (2026-04-28)
+[2026-04-27 12:18:03.832] [pool-7-thread-9] Bot-37 selected Seat-13 on NightRider-202 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:18:03.864] [pool-7-thread-9] Bot-37 is processing payment for Seat-13...
+[2026-04-27 12:18:04.566] [pool-4-thread-1] Seat-1 released due to timeout. (NightRider-202 / 2026-04-29)
+[2026-04-27 12:18:04.939] [pool-7-thread-9] Bot-37 confirmed booking for Seat-13 on NightRider-202 (2026-04-28)
+[2026-04-27 12:18:08.604] [pool-7-thread-11] Bot-39 selected Seat-14 on NightRider-202 (2026-04-30). Locked for 10 seconds.
+[2026-04-27 12:18:08.607] [pool-7-thread-11] Bot-39 is processing payment for Seat-14...
+[2026-04-27 12:18:10.085] [pool-7-thread-11] Bot-39 confirmed booking for Seat-14 on NightRider-202 (2026-04-30)
+[2026-04-27 12:18:13.376] [pool-7-thread-12] Bot-40 selected Seat-9 on Express-101 (2026-04-30). Locked for 10 seconds.
+[2026-04-27 12:18:13.379] [pool-7-thread-12] Bot-40 is processing payment for Seat-9...
+[2026-04-27 12:18:14.308] [pool-7-thread-12] Bot-40 confirmed booking for Seat-9 on Express-101 (2026-04-30)
+[2026-04-27 12:18:19.549] [pool-7-thread-15] Bot-42 selected Seat-1 on NightRider-202 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:18:19.553] [pool-7-thread-15] Bot-42 is taking too long to pay for Seat-1...
+[2026-04-27 12:18:24.043] [pool-7-thread-1] Bot-43 selected Seat-2 on Express-101 (2026-04-30). Locked for 10 seconds.
+[2026-04-27 12:18:24.045] [pool-7-thread-1] Bot-43 is taking too long to pay for Seat-2...
+[2026-04-27 12:18:25.962] [pool-7-thread-14] Bot-44 selected Seat-8 on Express-101 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:18:25.964] [pool-7-thread-14] Bot-44 is processing payment for Seat-8...
+[2026-04-27 12:18:26.538] [pool-7-thread-14] Bot-44 confirmed booking for Seat-8 on Express-101 (2026-04-28)
+[2026-04-27 12:18:29.308] [pool-7-thread-5] Bot-45 selected Seat-2 on NightRider-202 (2026-04-29). Locked for 10 seconds.
+[2026-04-27 12:18:29.310] [pool-7-thread-5] Bot-45 is taking too long to pay for Seat-2...
+[2026-04-27 12:18:29.557] [pool-2-thread-1] Seat-1 released due to timeout. (NightRider-202 / 2026-04-28)
+[2026-04-27 12:18:32.751] [pool-7-thread-3] Bot-46 selected Seat-3 on Express-101 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:18:32.753] [pool-7-thread-3] Bot-46 is processing payment for Seat-3...
+[2026-04-27 12:18:34.047] [pool-5-thread-1] Seat-2 released due to timeout. (Express-101 / 2026-04-30)
+[2026-04-27 12:18:34.113] [pool-7-thread-3] Bot-46 confirmed booking for Seat-3 on Express-101 (2026-04-28)
+[2026-04-27 12:18:36.805] [pool-7-thread-13] Bot-47 selected Seat-4 on NightRider-202 (2026-04-29). Locked for 10 seconds.
+[2026-04-27 12:18:36.808] [pool-7-thread-13] Bot-47 is taking too long to pay for Seat-4...
+[2026-04-27 12:18:39.317] [pool-4-thread-1] Seat-2 released due to timeout. (NightRider-202 / 2026-04-29)
+[2026-04-27 12:18:41.517] [pool-7-thread-2] Bot-48 selected Seat-5 on NightRider-202 (2026-04-30). Locked for 10 seconds.
+[2026-04-27 12:18:41.522] [pool-7-thread-2] Bot-48 is processing payment for Seat-5...
+[2026-04-27 12:18:42.532] [pool-7-thread-2] Bot-48 confirmed booking for Seat-5 on NightRider-202 (2026-04-30)
+[2026-04-27 12:18:43.686] [pool-7-thread-4] Bot-49 selected Seat-7 on NightRider-202 (2026-04-30). Locked for 10 seconds.
+[2026-04-27 12:18:43.688] [pool-7-thread-4] Bot-49 is processing payment for Seat-7...
+[2026-04-27 12:18:44.213] [pool-7-thread-4] Bot-49 confirmed booking for Seat-7 on NightRider-202 (2026-04-30)
+[2026-04-27 12:18:46.816] [pool-4-thread-1] Seat-4 released due to timeout. (NightRider-202 / 2026-04-29)
+[2026-04-27 12:18:47.926] [pool-7-thread-7] Bot-50 selected Seat-15 on NightRider-202 (2026-04-30). Locked for 10 seconds.
+[2026-04-27 12:18:47.928] [pool-7-thread-7] Bot-50 is processing payment for Seat-15...
+[2026-04-27 12:18:48.488] [pool-7-thread-9] WebUser selected Seat-6 on Express-101 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:18:48.493] [pool-7-thread-9] WebUser is processing payment for Seat-6...
+[2026-04-27 12:18:48.719] [pool-8-thread-1] WebUser deselected Seat-6 on Express-101 (2026-04-28)
+[2026-04-27 12:18:49.191] [pool-7-thread-7] Bot-50 confirmed booking for Seat-15 on NightRider-202 (2026-04-30)
+[2026-04-27 12:18:49.517] [pool-7-thread-10] Bot-51 selected Seat-13 on Express-101 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:18:49.520] [pool-7-thread-10] Bot-51 is taking too long to pay for Seat-13...
+[2026-04-27 12:18:49.822] [pool-7-thread-6] WebUser selected Seat-6 on Express-101 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:18:49.826] [pool-7-thread-6] WebUser is processing payment for Seat-6...
+[2026-04-27 12:18:50.576] [pool-7-thread-6] WebUser confirmed booking for Seat-6 on Express-101 (2026-04-28)
+[2026-04-27 12:18:53.703] [pool-7-thread-11] WebUser selected Seat-1 on Express-101 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:18:53.706] [pool-7-thread-11] WebUser is processing payment for Seat-1...
+[2026-04-27 12:18:53.726] [pool-7-thread-12] Bot-52 selected Seat-9 on NightRider-202 (2026-04-29). Locked for 10 seconds.
+[2026-04-27 12:18:53.727] [pool-7-thread-12] Bot-52 is processing payment for Seat-9...
+[2026-04-27 12:18:54.397] [pool-7-thread-11] WebUser confirmed booking for Seat-1 on Express-101 (2026-04-28)
+[2026-04-27 12:18:55.130] [pool-7-thread-12] Bot-52 confirmed booking for Seat-9 on NightRider-202 (2026-04-29)
+[2026-04-27 12:18:56.954] [pool-7-thread-8] Bot-53 selected Seat-11 on Express-101 (2026-04-29). Locked for 10 seconds.
+[2026-04-27 12:18:56.958] [pool-7-thread-8] Bot-53 is processing payment for Seat-11...
+[2026-04-27 12:18:58.397] [pool-7-thread-8] Bot-53 confirmed booking for Seat-11 on Express-101 (2026-04-29)
+[2026-04-27 12:18:59.534] [pool-1-thread-1] Seat-13 released due to timeout. (Express-101 / 2026-04-28)
+[2026-04-27 12:19:06.313] [pool-7-thread-15] Bot-56 selected Seat-4 on NightRider-202 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:19:06.315] [pool-7-thread-15] Bot-56 is taking too long to pay for Seat-4...
+[2026-04-27 12:19:16.319] [pool-2-thread-1] Seat-4 released due to timeout. (NightRider-202 / 2026-04-28)
+[2026-04-27 12:19:22.990] [pool-7-thread-9] Bot-62 selected Seat-4 on NightRider-202 (2026-04-29). Locked for 10 seconds.
+[2026-04-27 12:19:22.992] [pool-7-thread-9] Bot-62 is taking too long to pay for Seat-4...
+[2026-04-27 12:19:27.338] [pool-7-thread-6] Bot-63 selected Seat-2 on NightRider-202 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:19:27.339] [pool-7-thread-6] Bot-63 is processing payment for Seat-2...
+[2026-04-27 12:19:28.792] [pool-7-thread-6] Bot-63 confirmed booking for Seat-2 on NightRider-202 (2026-04-28)
+[2026-04-27 12:19:33.003] [pool-4-thread-1] Seat-4 released due to timeout. (NightRider-202 / 2026-04-29)
+[2026-04-27 12:19:33.985] [pool-7-thread-11] Bot-65 selected Seat-3 on NightRider-202 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:19:33.987] [pool-7-thread-11] Bot-65 is taking too long to pay for Seat-3...
+[2026-04-27 12:19:37.966] [pool-7-thread-12] Bot-66 selected Seat-15 on Express-101 (2026-04-29). Locked for 10 seconds.
+[2026-04-27 12:19:37.967] [pool-7-thread-12] Bot-66 is processing payment for Seat-15...
+[2026-04-27 12:19:38.776] [pool-7-thread-12] Bot-66 confirmed booking for Seat-15 on Express-101 (2026-04-29)
+[2026-04-27 12:19:39.803] [pool-7-thread-8] Bot-67 selected Seat-7 on NightRider-202 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:19:39.804] [pool-7-thread-8] Bot-67 is taking too long to pay for Seat-7...
+[2026-04-27 12:19:44.001] [pool-2-thread-1] Seat-3 released due to timeout. (NightRider-202 / 2026-04-28)
+[2026-04-27 12:19:46.437] [pool-7-thread-3] Bot-69 selected Seat-7 on Express-101 (2026-04-30). Locked for 10 seconds.
+[2026-04-27 12:19:46.439] [pool-7-thread-3] Bot-69 is processing payment for Seat-7...
+[2026-04-27 12:19:47.623] [pool-7-thread-3] Bot-69 confirmed booking for Seat-7 on Express-101 (2026-04-30)
+[2026-04-27 12:19:49.814] [pool-2-thread-1] Seat-7 released due to timeout. (NightRider-202 / 2026-04-28)
+[2026-04-27 12:19:50.816] [pool-7-thread-10] Bot-70 selected Seat-13 on NightRider-202 (2026-04-29). Locked for 10 seconds.
+[2026-04-27 12:19:50.819] [pool-7-thread-10] Bot-70 is processing payment for Seat-13...
+[2026-04-27 12:19:51.754] [pool-7-thread-10] Bot-70 confirmed booking for Seat-13 on NightRider-202 (2026-04-29)
+[2026-04-27 12:19:59.248] [pool-7-thread-2] Bot-72 selected Seat-6 on Express-101 (2026-04-29). Locked for 10 seconds.
+[2026-04-27 12:19:59.251] [pool-7-thread-2] Bot-72 is processing payment for Seat-6...
+[2026-04-27 12:19:59.982] [pool-7-thread-2] Bot-72 confirmed booking for Seat-6 on Express-101 (2026-04-29)
+[2026-04-27 12:20:04.454] [pool-7-thread-5] Bot-74 selected Seat-2 on Express-101 (2026-04-29). Locked for 10 seconds.
+[2026-04-27 12:20:04.456] [pool-7-thread-5] Bot-74 is processing payment for Seat-2...
+[2026-04-27 12:20:05.001] [pool-7-thread-5] Bot-74 confirmed booking for Seat-2 on Express-101 (2026-04-29)
+[2026-04-27 12:20:07.514] [pool-7-thread-7] Bot-75 selected Seat-2 on Express-101 (2026-04-30). Locked for 10 seconds.
+[2026-04-27 12:20:07.516] [pool-7-thread-7] Bot-75 is taking too long to pay for Seat-2...
+[2026-04-27 12:20:10.031] [pool-7-thread-15] Bot-76 selected Seat-2 on NightRider-202 (2026-04-30). Locked for 10 seconds.
+[2026-04-27 12:20:10.034] [pool-7-thread-15] Bot-76 is taking too long to pay for Seat-2...
+[2026-04-27 12:20:12.373] [pool-7-thread-6] Bot-77 selected Seat-3 on Express-101 (2026-04-29). Locked for 10 seconds.
+[2026-04-27 12:20:12.374] [pool-7-thread-6] Bot-77 is processing payment for Seat-3...
+[2026-04-27 12:20:13.183] [pool-7-thread-6] Bot-77 confirmed booking for Seat-3 on Express-101 (2026-04-29)
+[2026-04-27 12:20:14.151] [pool-7-thread-13] Bot-78 selected Seat-4 on NightRider-202 (2026-04-29). Locked for 10 seconds.
+[2026-04-27 12:20:14.154] [pool-7-thread-13] Bot-78 is processing payment for Seat-4...
+[2026-04-27 12:20:15.164] [pool-7-thread-13] Bot-78 confirmed booking for Seat-4 on NightRider-202 (2026-04-29)
+[2026-04-27 12:20:17.407] [pool-7-thread-9] Bot-79 selected Seat-8 on NightRider-202 (2026-04-29). Locked for 10 seconds.
+[2026-04-27 12:20:17.409] [pool-7-thread-9] Bot-79 is taking too long to pay for Seat-8...
+[2026-04-27 12:20:17.534] [pool-5-thread-1] Seat-2 released due to timeout. (Express-101 / 2026-04-30)
+[2026-04-27 12:20:19.628] [pool-7-thread-12] WebUser selected Seat-4 on NightRider-202 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:20:19.633] [pool-7-thread-12] WebUser is processing payment for Seat-4...
+[2026-04-27 12:20:20.041] [pool-6-thread-1] Seat-2 released due to timeout. (NightRider-202 / 2026-04-30)
+[2026-04-27 12:20:20.197] [pool-7-thread-12] WebUser confirmed booking for Seat-4 on NightRider-202 (2026-04-28)
+[2026-04-27 12:20:22.761] [pool-7-thread-3] WebUser selected Seat-7 on NightRider-202 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:20:22.763] [pool-7-thread-3] WebUser is processing payment for Seat-7...
+[2026-04-27 12:20:23.839] [pool-7-thread-3] WebUser confirmed booking for Seat-7 on NightRider-202 (2026-04-28)
+[2026-04-27 12:20:27.417] [pool-4-thread-1] Seat-8 released due to timeout. (NightRider-202 / 2026-04-29)
+[2026-04-27 12:20:27.417] [pool-7-thread-10] Bot-82 selected Seat-4 on Express-101 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:20:27.420] [pool-7-thread-10] Bot-82 is processing payment for Seat-4...
+[2026-04-27 12:20:28.228] [pool-7-thread-10] Bot-82 confirmed booking for Seat-4 on Express-101 (2026-04-28)
+[2026-04-27 12:20:30.147] [pool-7-thread-8] Bot-83 selected Seat-10 on NightRider-202 (2026-04-30). Locked for 10 seconds.
+[2026-04-27 12:20:30.149] [pool-7-thread-8] Bot-83 is processing payment for Seat-10...
+[2026-04-27 12:20:30.968] [pool-7-thread-8] Bot-83 confirmed booking for Seat-10 on NightRider-202 (2026-04-30)
+[2026-04-27 12:20:40.982] [pool-7-thread-4] Bot-86 selected Seat-13 on Express-101 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:20:40.984] [pool-7-thread-4] Bot-86 is processing payment for Seat-13...
+[2026-04-27 12:20:41.997] [pool-7-thread-4] Bot-86 confirmed booking for Seat-13 on Express-101 (2026-04-28)
+[2026-04-27 12:20:46.169] [pool-7-thread-6] Bot-88 selected Seat-1 on Express-101 (2026-04-29). Locked for 10 seconds.
+[2026-04-27 12:20:46.171] [pool-7-thread-6] Bot-88 is processing payment for Seat-1...
+[2026-04-27 12:20:47.431] [pool-7-thread-6] Bot-88 confirmed booking for Seat-1 on Express-101 (2026-04-29)
+[2026-04-27 12:20:57.780] [pool-7-thread-12] Bot-91 selected Seat-15 on NightRider-202 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:20:57.792] [pool-7-thread-12] Bot-91 is processing payment for Seat-15...
+[2026-04-27 12:20:59.028] [pool-7-thread-12] Bot-91 confirmed booking for Seat-15 on NightRider-202 (2026-04-28)
+[2026-04-27 12:21:03.448] [pool-7-thread-11] Bot-94 selected Seat-8 on Express-101 (2026-04-29). Locked for 10 seconds.
+[2026-04-27 12:21:03.450] [pool-7-thread-11] Bot-94 is processing payment for Seat-8...
+[2026-04-27 12:21:04.632] [pool-7-thread-11] Bot-94 confirmed booking for Seat-8 on Express-101 (2026-04-29)
+[2026-04-27 12:21:10.117] [pool-7-thread-8] Bot-97 selected Seat-8 on NightRider-202 (2026-04-29). Locked for 10 seconds.
+[2026-04-27 12:21:10.120] [pool-7-thread-8] Bot-97 is processing payment for Seat-8...
+[2026-04-27 12:21:10.727] [pool-7-thread-8] Bot-97 confirmed booking for Seat-8 on NightRider-202 (2026-04-29)
+[2026-04-27 12:21:13.777] [pool-7-thread-9] Bot-98 selected Seat-2 on Express-101 (2026-04-30). Locked for 10 seconds.
+[2026-04-27 12:21:13.802] [pool-7-thread-9] Bot-98 is processing payment for Seat-2...
+[2026-04-27 12:21:14.708] [pool-7-thread-9] Bot-98 confirmed booking for Seat-2 on Express-101 (2026-04-30)
+[2026-04-27 12:21:21.629] [pool-7-thread-4] Bot-101 selected Seat-8 on NightRider-202 (2026-04-28). Locked for 10 seconds.
+[2026-04-27 12:21:22.220] [pool-7-thread-4] Bot-101 is processing payment for Seat-8...
+[2026-04-27 12:21:23.092] [pool-7-thread-4] Bot-101 confirmed booking for Seat-8 on NightRider-202 (2026-04-28)
+[2026-04-27 12:21:31.286] [pool-7-thread-13] Bot-104 selected Seat-10 on Express-101 (2026-04-30). Locked for 10 seconds.
+[2026-04-27 12:21:31.288] [pool-7-thread-13] Bot-104 is processing payment for Seat-10...
+[2026-04-27 12:21:32.728] [pool-7-thread-13] Bot-104 confirmed booking for Seat-10 on Express-101 (2026-04-30)

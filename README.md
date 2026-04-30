@@ -120,6 +120,7 @@ How does seat locking prevent conflicts?
 How is timeout implemented?
 📊 Version
 🚀 v1.0 – AdUI, seat locking, timeout, and advanced concurrency
+
 👨‍💻 Author
 
 Saurabh

@@ -1,4 +1,4 @@
-gitpublic class Seat {
+public class Seat {
     private final int seatNumber;
     private SeatStatus status;
     private String holderName;
